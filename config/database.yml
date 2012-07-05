@@ -17,7 +17,7 @@ development:
   encoding: unicode
   database: stasheyboard_development
   pool: 5
-  username: stasheyboard
+  username: sircharles
   password:
 
   # Connect on a TCP socket. Omitted by default since the client uses a
@@ -43,7 +43,7 @@ test:
   encoding: unicode
   database: stasheyboard_test
   pool: 5
-  username: stasheyboard
+  username: sircharles
   password:
 
 production:
@@ -51,5 +51,5 @@ production:
   encoding: unicode
   database: stasheyboard_production
   pool: 5
-  username: stasheyboard
+  username: sircharles
   password:

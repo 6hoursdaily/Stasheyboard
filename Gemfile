@@ -13,6 +13,7 @@ gem 'pg'
 group :assets do
   gem 'sass-rails',   '~> 3.2.3'
   gem 'coffee-rails', '~> 3.2.1'
+  gem 'zurb-foundation'
 
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
   # gem 'therubyracer', :platforms => :ruby
@@ -21,6 +22,24 @@ group :assets do
 end
 
 gem 'jquery-rails'
+gem 'devise'
+
+
+group :development do
+	gem 'parallel_tests'
+end
+
+group :test, :development do
+	gem 'rspec-rails', '~> 2.5'
+end
+
+group :test do
+	gem 'cucumber-rails', '1.0.6', require: false
+	gem 'capybara'
+	gem 'poltergeist'
+	gem 'database_cleaner'
+	gem 'factory_girl_rails'
+end
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
