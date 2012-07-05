@@ -9,5 +9,23 @@
  * compiled file, but it's generally better to create a new file per style scope.
  *
  *= require_self
+ *= require foundation
  *= require_tree .
  */
+
+.root_link {
+	text-underline: none;
+	color: black;
+	font-size: 2em;
+	font-style: bold;
+}
+
+#page_header {
+	margin-bottom: 40px;
+	border-bottom: solid 2px #fff;
+	padding-bottom: 10px;
+}
+
+#page_header #email {
+	float: right;
+ }

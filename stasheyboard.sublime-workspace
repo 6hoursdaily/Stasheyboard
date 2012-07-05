@@ -31,6 +31,30 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "app/views/services/index.html.erb",
+			"settings":
+			{
+				"buffer_size": 32,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/assets/stylesheets/application.css",
+			"settings":
+			{
+				"buffer_size": 795,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/layouts/application.html.erb",
+			"settings":
+			{
+				"buffer_size": 1269,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -108,6 +132,18 @@
 	},
 	"file_history":
 	[
+		"/home/sircharles/dev/rails/stasheyboard/app/views/layouts/application.html.erb",
+		"/home/sircharles/dev/rails/stasheyboard/config/routes.rb",
+		"/home/sircharles/dev/rails/stasheyboard/app/controllers/services_controller.rb",
+		"/home/sircharles/dev/rails/stasheyboard/spec/support/devise.rb",
+		"/home/sircharles/dev/rails/stasheyboard/app/controllers/application_controller.rb",
+		"/home/sircharles/dev/rails/stasheyboard/app/models/service.rb",
+		"/home/sircharles/dev/rails/stasheyboard/app/models/status.rb",
+		"/home/sircharles/dev/rails/stasheyboard/db/seeds.rb",
+		"/home/sircharles/dev/rails/stasheyboard/config/database.yml",
+		"/home/sircharles/dev/rails/ticketee/Gemfile",
+		"/home/sircharles/dev/rails/stasheyboard/spec/spec_helper.rb",
+		"/home/sircharles/dev/rails/stasheyboard/Gemfile",
 		"/home/sircharles/web_dev/Happy_Lappy/config.yaml",
 		"/home/sircharles/web_dev/Happy_Lappy/content/index.haml",
 		"/home/sircharles/web_dev/Happy_Lappy/content/css/_nanoc.scss",
@@ -223,19 +259,7 @@
 		"/home/sircharles/railsprojects/ticketee/config/environments/development.rb",
 		"/home/sircharles/Dropbox/PROGRAMMING/Web Development/Ruby + ROR/Rails3 in Action/code/app/controllers/admin/users_controller.rb",
 		"/home/sircharles/railsprojects/ticketee/features/editing_users.feature",
-		"/home/sircharles/railsprojects/ticketee/app/views/admin/users/edit.html.erb",
-		"/home/sircharles/railsprojects/ticketee/features/creating_users.feature",
-		"/home/sircharles/railsprojects/ticketee/app/controllers/admin/base_controller.rb",
-		"/home/sircharles/railsprojects/ticketee/app/views/admin/users/_form.html.erb",
-		"/home/sircharles/railsprojects/ticketee/app/views/admin/users/index.html.erb",
-		"/home/sircharles/railsprojects/ticketee/app/views/projects/index.html.erb",
-		"/home/sircharles/railsprojects/ticketee/spec/views/admin/users/index.html.erb_spec.rb",
-		"/home/sircharles/railsprojects/ticketee/app/views/admin/users/new.html.erb",
-		"/home/sircharles/railsprojects/ticketee/app/views/admin/base/index.html.erb",
-		"/home/sircharles/railsprojects/ticketee/spec/controllers/admin/users_controller_spec.rb",
-		"/home/sircharles/railsprojects/ticketee/spec/helpers/admin/users_helper_spec.rb",
-		"/home/sircharles/railsprojects/ticketee/app/helpers/admin/users_helper.rb",
-		"/home/sircharles/railsprojects/ticketee/spec/support/seed_helpers.rb"
+		"/home/sircharles/railsprojects/ticketee/app/views/admin/users/edit.html.erb"
 	],
 	"find":
 	{
@@ -290,8 +314,87 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "app/views/services/index.html.erb",
+					"settings":
+					{
+						"buffer_size": 32,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								30,
+								30
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/assets/stylesheets/application.css",
+					"settings":
+					{
+						"buffer_size": 795,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								728,
+								728
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 92.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/views/layouts/application.html.erb",
+					"settings":
+					{
+						"buffer_size": 1269,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1180,
+								1180
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 171.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -337,6 +440,42 @@
 		"selected_items":
 		[
 			[
+				"appli",
+				"app/views/layouts/application.html.erb"
+			],
+			[
+				"seed",
+				"db/seeds.rb"
+			],
+			[
+				"statu",
+				"app/models/status.rb"
+			],
+			[
+				"servi",
+				"app/models/service.rb"
+			],
+			[
+				"rout",
+				"config/routes.rb"
+			],
+			[
+				"gem",
+				"Gemfile"
+			],
+			[
+				"spec",
+				"spec/spec_helper.rb"
+			],
+			[
+				"data",
+				"config/database.yml"
+			],
+			[
+				"g",
+				"Gemfile"
+			],
+			[
 				"yaml",
 				"config.yaml"
 			],
@@ -373,20 +512,12 @@
 				"spec/factories/phone.rb"
 			],
 			[
-				"spec",
-				"spec/spec_helper.rb"
-			],
-			[
 				"contact",
 				"spec/factories/contact.rb"
 			],
 			[
 				"contac",
 				"spec/factories/contact.rb"
-			],
-			[
-				"gem",
-				"Gemfile"
 			],
 			[
 				"phones",
@@ -397,19 +528,11 @@
 				"config/application.rb"
 			],
 			[
-				"data",
-				"config/database.yml"
-			],
-			[
 				"show",
 				"app/views/tickets/show.html.erb"
 			],
 			[
 				"app",
-				"config/application.rb"
-			],
-			[
-				"appli",
 				"config/application.rb"
 			],
 			[
@@ -499,10 +622,6 @@
 			[
 				"assig",
 				"features/assigning_permissions.feature"
-			],
-			[
-				"rout",
-				"config/routes.rb"
 			],
 			[
 				"applic",

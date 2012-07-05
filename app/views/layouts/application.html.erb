@@ -1,14 +1,38 @@
 <!DOCTYPE html>
-<html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7 ]> <html class="ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]>    <html class="ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]>    <html class="ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--> <html lang="en"> <!--<![endif]-->
 <head>
-  <title>Stasheyboard</title>
-  <%= stylesheet_link_tag    "application", :media => "all" %>
-  <%= javascript_include_tag "application" %>
+	<meta charset="utf-8" />
+	
+	<!-- Uncomment to make IE8 render like IE7 -->
+	<!-- <meta http-equiv="X-UA-Compatible" content="IE=7" /> -->
+	
+	<!-- Set the viewport width to device width for mobile -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	
+	<title><%= content_for?(:title) ? yield(:title) : "Untitled" %></title>
+  
+	<!-- Included CSS Files -->
+	<%= stylesheet_link_tag    "application" %>
+	
+	<!-- Included JS Files  -->
+	<%= javascript_include_tag "application" %>
+  
   <%= csrf_meta_tags %>
 </head>
+<header id="page_header">
+	<div id="email" class="actions button-container">
+	  <a href="mailto:help@stashboard.org" class="radius button">Report an Issue</a>
+	</div>
+	<%= image_tag("logo.png", :alt => "Logo", :size => "64x64") %>
+	<%= link_to "Stashboard", root_path, :class => 'root_link' %>
+</header>
 <body>
-
-<%= yield %>
-
+  <div class="container">
+    <%= yield %>
+  </div>
 </body>
 </html>
