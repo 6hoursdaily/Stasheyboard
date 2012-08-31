@@ -14,7 +14,6 @@
  *= require_tree .
  */
 
-
 html, body {
 	background: rgb(247, 247, 247);
 }
@@ -29,7 +28,7 @@ html, body {
 	height: 70px; background: rgb(247, 247, 247);
 }
 
-#page_header #logo { height: 40px; width: 54px; float: left; margin: 15px 0;}
+#page_header #logo_image { height: 40px; width: 54px; float: left; margin: 15px 0;}
 
 #page_header #root_link {
 	text-decoration: none;
