@@ -11,3 +11,14 @@
 
 Admin.create!({email: "admin@rashboard.com", password: "password"})
 
+
+# services!
+
+Service.create!({name: "Server 1"})
+Service.create!({name: "Server 2"})
+
+# statuses!
+
+Status.create!({name: "Up"})
+Status.create!({name: "Down"})
+Status.create!({name: "Troubled"})

@@ -32,18 +32,10 @@
 	"buffers":
 	[
 		{
-			"file": "app/views/services/index.html.erb",
-			"settings":
-			{
-				"buffer_size": 32,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "app/assets/stylesheets/application.css",
 			"settings":
 			{
-				"buffer_size": 795,
+				"buffer_size": 1084,
 				"line_ending": "Unix"
 			}
 		},
@@ -51,7 +43,15 @@
 			"file": "app/views/layouts/application.html.erb",
 			"settings":
 			{
-				"buffer_size": 1269,
+				"buffer_size": 835,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/layouts/_header.html.erb",
+			"settings":
+			{
+				"buffer_size": 407,
 				"line_ending": "Unix"
 			}
 		}
@@ -132,6 +132,13 @@
 	},
 	"file_history":
 	[
+		"/home/sircharles/dev/rails/stasheyboard/app/views/services/index.html.erb",
+		"/home/sircharles/dev/rails/stasheyboard/app/views/layouts/_header.html.erb",
+		"/home/sircharles/dev/rails/stasheyboard/app/views/layouts/_footer.html.erb",
+		"/home/sircharles/web_dev/Initializr - NY_Burgundians/index.html",
+		"/home/sircharles/web_dev/Happy_Lappy/output/index.html",
+		"/home/sircharles/web_dev/nyburgundians/source/index.html",
+		"/home/sircharles/dev/rails/stasheyboard/app/views/layouts/_messages.html.erb",
 		"/home/sircharles/dev/rails/stasheyboard/app/views/layouts/application.html.erb",
 		"/home/sircharles/dev/rails/stasheyboard/config/routes.rb",
 		"/home/sircharles/dev/rails/stasheyboard/app/controllers/services_controller.rb",
@@ -252,14 +259,7 @@
 		"/home/sircharles/railsprojects/ticketee/app/models/permission.rb",
 		"/home/sircharles/railsprojects/ticketee/.git/COMMIT_EDITMSG",
 		"/home/sircharles/Dropbox/PROGRAMMING/Web Development/Ruby + ROR/Rails3 in Action/code/app/models/project.rb",
-		"/home/sircharles/Scripts/tomatoe.sh",
-		"/home/sircharles/Dropbox/PROGRAMMING/Web Development/Ruby + ROR/Rails3 in Action/code/spec/controllers/projects_controller_spec.rb",
-		"/home/sircharles/railsprojects/ticketee/db/migrate/20120509222413_create_permissions.rb",
-		"/home/sircharles/railsprojects/ticketee/features/deleting_users.feature",
-		"/home/sircharles/railsprojects/ticketee/config/environments/development.rb",
-		"/home/sircharles/Dropbox/PROGRAMMING/Web Development/Ruby + ROR/Rails3 in Action/code/app/controllers/admin/users_controller.rb",
-		"/home/sircharles/railsprojects/ticketee/features/editing_users.feature",
-		"/home/sircharles/railsprojects/ticketee/app/views/admin/users/edit.html.erb"
+		"/home/sircharles/Scripts/tomatoe.sh"
 	],
 	"find":
 	{
@@ -314,28 +314,56 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "app/views/services/index.html.erb",
+					"file": "app/assets/stylesheets/application.css",
 					"settings":
 					{
-						"buffer_size": 32,
+						"buffer_size": 1084,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								30,
-								30
+								731,
+								731
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 255.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/views/layouts/application.html.erb",
+					"settings":
+					{
+						"buffer_size": 835,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								812,
+								812
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -344,45 +372,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 1,
-					"file": "app/assets/stylesheets/application.css",
-					"settings":
-					{
-						"buffer_size": 795,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								728,
-								728
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 92.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
 					"buffer": 2,
-					"file": "app/views/layouts/application.html.erb",
+					"file": "app/views/layouts/_header.html.erb",
 					"settings":
 					{
-						"buffer_size": 1269,
+						"buffer_size": 407,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1180,
-								1180
+								0,
+								0
 							]
 						],
 						"settings":
@@ -390,7 +392,7 @@
 							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 171.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -439,6 +441,14 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"heade",
+				"app/views/layouts/_header.html.erb"
+			],
+			[
+				"index",
+				"app/views/services/index.html.erb"
+			],
 			[
 				"appli",
 				"app/views/layouts/application.html.erb"
@@ -614,10 +624,6 @@
 			[
 				"assign",
 				"features/assigning_permissions.feature"
-			],
-			[
-				"index",
-				"app/views/admin/permissions/index.html.erb"
 			],
 			[
 				"assig",
