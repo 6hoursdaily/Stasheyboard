@@ -8,31 +8,48 @@
  * You're free to add application-wide styles to this file and they'll appear at the top of the
  * compiled file, but it's generally better to create a new file per style scope.
  *
- *= require_self
  *= require foundation_and_overrides
- *= require foundation
+ *= require_self
  *= require_tree .
  */
 
-html, body {
-	background: rgb(247, 247, 247);
+@import "foundation";
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600);
+
+@mixin default_font {
+	font: 1.3em "Open Sans";
 }
 
-#wrapper {
-	width: 900px; min-height: 100%;
-  height: auto !important; height: 100%;
-  margin: 0 auto -3em;
+
+/* BASE STYLES */
+
+html, body {
+	background-color: rgb(247, 247, 247);
+	@include default_font
 }
+
+p {
+	@include default_font
+}
+
+// #wrapper {
+// 	width: 900px; min-height: 100%;
+//   height: auto !important; height: 100%;
+//   // margin: auto auto;
+// }
+
+/* HEADER */
 
 #page_header {
-	height: 70px; background: rgb(247, 247, 247);
+	height: 70px;
 }
 
 #page_header #logo_image { height: 40px; width: 54px; float: left; margin: 15px 0;}
 
 #page_header #root_link {
 	text-decoration: none;
-	font: 32px bold arial, helvetica, verdana, sans-serif;
+	font: 32px "Open Sans", arial, helvetica, verdana, sans-serif;
+	font-weight: bold;
 	color: black;
 }
 				
@@ -41,5 +58,23 @@ html, body {
 	margin-right: 15px;
 }
 
+#root_link {
+	padding-top: 15px;
+	padding-left: 15px;
+	float:left;
+	a {
+		color: black;
+	}
+}
+
+#email {
+	float: right;
+	margin-top: 15px;
+}
 
 
+/* CONTENT SECTION */
+
+section#content {
+	background-color: white;
+}

@@ -1,7 +1,8 @@
 %header#page_header
-	.row
-		.eleven.columns.centered
-			= image_tag("logo.png", :alt => "Logo", :id => 'logo_image', :size => "64x64")
-			= link_to "Stashboard", root_path, :id => 'root_link' 
-			#email{ :class => "actions button-container" }
-				= link_to "Report an issue", href="mailto:help@stashboard.org", :class => "medium round white nice button"
+  .row
+    .eleven.columns.centered
+      = image_tag("logo.png", :alt => "Logo", :id => 'logo_image', :size => "64x64")
+      #root_link
+        = link_to "Stashboard", root_path
+      #email
+        = link_to "Report an issue", href="mailto:help@stashboard.org", :class => "medium round secondary button"
