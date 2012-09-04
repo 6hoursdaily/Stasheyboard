@@ -42,9 +42,13 @@ p {
 
 #page_header {
 	height: 70px;
+	margin-bottom: 10px;
 }
 
-#page_header #logo_image { height: 40px; width: 54px; float: left; margin: 15px 0;}
+#page_header #logo_image { height: 40px;
+	width: 54px;
+	float: left;
+	margin: 15px 0;}
 
 #page_header #root_link {
 	text-decoration: none;
@@ -59,7 +63,7 @@ p {
 }
 
 #root_link {
-	padding-top: 15px;
+	padding-top: 12px;
 	padding-left: 15px;
 	float:left;
 	a {
@@ -69,7 +73,7 @@ p {
 
 #email {
 	float: right;
-	margin-top: 15px;
+	margin-top: 17px;
 }
 
 
@@ -77,4 +81,7 @@ p {
 
 section#content {
 	background-color: white;
+	border: 1px solid #E4E4E4;
+	padding: 20px;
+	position: relative;
 }

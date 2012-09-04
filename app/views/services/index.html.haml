@@ -1,5 +1,7 @@
-= content_for :title, "Home"
+= content_for :title, "Stasheyboard"
 %section#content
   .row
     .eleven.columns.centered
-      %p Your services, good sir:
+      %table#services
+        #tbody
+          = services_presenter
