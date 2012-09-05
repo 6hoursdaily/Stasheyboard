@@ -8,7 +8,7 @@
   %tbody
     - @services.each do |service|
       %tr
-        %td= service.name
+        %td= link_to service.name, service
 
 
 

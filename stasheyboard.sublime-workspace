@@ -56,6 +56,7 @@
 			}
 		},
 		{
+<<<<<<< .merge_file_xHgvOO
 			"file": "config/initializers/devise.rb",
 			"settings":
 			{
@@ -92,6 +93,12 @@
 			"settings":
 			{
 				"buffer_size": 153,
+=======
+			"file": "app/views/services/show.html.haml",
+			"settings":
+			{
+				"buffer_size": 411,
+>>>>>>> .merge_file_Zn6EgO
 				"line_ending": "Unix"
 			}
 		}
@@ -172,6 +179,7 @@
 	},
 	"file_history":
 	[
+<<<<<<< .merge_file_xHgvOO
 		"/home/sircharles/dev/rails/Stashboard Project/stasheyboard/Gemfile",
 		"/home/sircharles/dev/rails/Stashboard Project/stasheyboard/app/views/services/show.html.haml",
 		"/home/sircharles/dev/rails/Stashboard Project/stasheyboard/app/views/services/index.html.haml",
@@ -194,6 +202,38 @@
 		"/home/sircharles/dev/rails/Stashboard Project/stasheyboard/stasheyboard.sublime-project",
 		"/home/sircharles/dev/rails/Stashboard Project/stasheyboard/spec/spec_helper.rb",
 		"/home/sircharles/dev/rails/Stashboard Project/stasheyboard/app/views/layouts/_footer.html.haml",
+=======
+		"/home/sircharles/dev/rails/Stashboard Project/stasheyboard/app/assets/stylesheets/application.css.scss",
+		"/home/sircharles/dev/rails/Stashboard Project/stasheyboard/app/controllers/services_controller.rb",
+		"/home/sircharles/dev/rails/Stashboard Project/stasheyboard/app/views/layouts/_messages.html.haml",
+		"/home/sircharles/dev/rails/Stashboard Project/stasheyboard/app/views/layouts/_services.html.haml",
+		"/home/sircharles/dev/rails/Stashboard Project/stasheyboard/app/views/services/index.html.haml",
+		"/home/sircharles/dev/rails/Stashboard Project/stasheyboard/app/views/layouts/application.html.haml",
+		"/home/sircharles/dev/rails/Stashboard Project/stasheyboard/app/views/layouts/_header.html.haml",
+		"/home/sircharles/dev/rails/Stashboard Project/stasheyboard/app/views/layouts/_footer.html.haml",
+		"/home/sircharles/dev/rails/Stashboard Project/stasheyboard/app/views/services/show.html.haml",
+		"/home/sircharles/dev/rails/Stashboard Project/stasheyboard/app/views/devise/sessions/new.html.haml",
+		"/home/sircharles/dev/rails/Stashboard Project/stasheyboard/db/migrate/20120705203320_devise_create_admins.rb",
+		"/home/sircharles/dev/rails/Stashboard Project/stasheyboard/db/migrate/20120705203556_create_statuses.rb",
+		"/home/sircharles/dev/rails/Stashboard Project/stasheyboard/db/seeds.rb",
+		"/home/sircharles/dev/rails/Stashboard Project/stasheyboard/config/routes.rb",
+		"/home/sircharles/dev/rails/Stashboard Project/stasheyboard/app/models/admin.rb",
+		"/home/sircharles/dev/rails/Stashboard Project/stasheyboard/app/views/devise/sessions/new.html.erb",
+		"/home/sircharles/dev/rails/Stashboard Project/stasheyboard/Gemfile",
+		"/home/sircharles/dev/rails/Stashboard Project/stasheyboard/app/admin/dashboard.rb",
+		"/home/sircharles/dev/rails/Stashboard Project/stasheyboard/config/application.rb",
+		"/home/sircharles/dev/rails/Stashboard Project/stasheyboard/config/initializers/devise.rb",
+		"/home/sircharles/dev/rails/Stashboard Project/stasheyboard/features/editing_service_statuses.feature",
+		"/home/sircharles/dev/rails/Stashboard Project/stasheyboard/features/editing_statuses.feature",
+		"/home/sircharles/dev/rails/Stashboard Project/stasheyboard/features/creating_statuses.feature",
+		"/home/sircharles/dev/rails/Stashboard Project/stasheyboard/db/migrate/20120905153057_add_status_id_to_services.rb",
+		"/home/sircharles/dev/rails/Stashboard Project/stasheyboard/features/seed.feature",
+		"/home/sircharles/dev/rails/Stashboard Project/stasheyboard/features/step_definitions/application_steps.rb",
+		"/home/sircharles/dev/rails/Stashboard Project/stasheyboard/features/support/env.rb",
+		"/home/sircharles/dev/rails/Stashboard Project/stasheyboard/app/models/service.rb",
+		"/home/sircharles/dev/rails/Stashboard Project/stasheyboard/stasheyboard.sublime-project",
+		"/home/sircharles/dev/rails/Stashboard Project/stasheyboard/spec/spec_helper.rb",
+>>>>>>> .merge_file_Zn6EgO
 		"/home/sircharles/dev/rails/Stashboard Project/stasheyboard/app/helpers/application_helper.rb",
 		"/home/sircharles/dev/rails/Stashboard Project/stasheyboard/app/models/status.rb",
 		"/home/sircharles/dev/rails/Stashboard Project/stasheyboard/app/assets/stylesheets/foundation_and_overrides.scss",
@@ -291,6 +331,7 @@
 		"/home/sircharles/railsprojects/ticketee/config/routes.rb",
 		"/home/sircharles/railsprojects/ticketee/features/step_definitions/application_steps.rb",
 		"/home/sircharles/railsprojects/monkey_allright_signup/db/seeds.rb",
+<<<<<<< .merge_file_xHgvOO
 		"/home/sircharles/railsprojects/ticketee/spec/helpers/admin/permissions_helper_spec.rb",
 		"/home/sircharles/railsprojects/ticketee/app/controllers/admin/permissions_controller.rb",
 		"/home/sircharles/railsprojects/ticketee/app/views/layouts/application.html.erb",
@@ -300,6 +341,9 @@
 		"/home/sircharles/railsprojects/ticketee/spec/controllers/admin/permissions_controller_spec.rb",
 		"/home/sircharles/railsprojects/ticketee/app/controllers/projects_controller.rb",
 		"/home/sircharles/railsprojects/ticketee/app/controllers/users_controller.rb"
+=======
+		"/home/sircharles/railsprojects/ticketee/spec/helpers/admin/permissions_helper_spec.rb"
+>>>>>>> .merge_file_Zn6EgO
 	],
 	"find":
 	{
@@ -355,7 +399,11 @@
 	"groups":
 	[
 		{
+<<<<<<< .merge_file_xHgvOO
 			"selected": 6,
+=======
+			"selected": 2,
+>>>>>>> .merge_file_Zn6EgO
 			"sheets":
 			[
 				{
@@ -396,8 +444,13 @@
 						"selection":
 						[
 							[
+<<<<<<< .merge_file_xHgvOO
 								65,
 								65
+=======
+								64,
+								64
+>>>>>>> .merge_file_Zn6EgO
 							]
 						],
 						"settings":
@@ -416,6 +469,7 @@
 					"settings":
 					{
 						"buffer_size": 236,
+<<<<<<< .merge_file_xHgvOO
 						"regions":
 						{
 						},
@@ -496,12 +550,15 @@
 					"settings":
 					{
 						"buffer_size": 3027,
+=======
+>>>>>>> .merge_file_Zn6EgO
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
+<<<<<<< .merge_file_xHgvOO
 								241,
 								241
 							]
@@ -560,11 +617,41 @@
 							[
 								142,
 								142
+=======
+								230,
+								230
+>>>>>>> .merge_file_Zn6EgO
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage"
+							"syntax": "Packages/Cucumber/Cucumber Plain Text Feature.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/views/services/show.html.haml",
+					"settings":
+					{
+						"buffer_size": 411,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								120,
+								120
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/Ruby Haml.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -617,16 +704,65 @@
 		"selected_items":
 		[
 			[
+<<<<<<< .merge_file_xHgvOO
 				"migra",
 				"db/migrate/20120705203320_devise_create_admins.rb"
 			],
 			[
 				"appli",
 				"config/application.rb"
+=======
+				"applica",
+				"app/assets/stylesheets/application.css.scss"
+>>>>>>> .merge_file_Zn6EgO
 			],
 			[
-				"route",
-				"config/routes.rb"
+				"mess",
+				"app/views/layouts/_messages.html.haml"
+			],
+			[
+				"controll",
+				"app/controllers/services_controller.rb"
+			],
+			[
+				"service",
+				"app/views/layouts/_services.html.haml"
+			],
+			[
+				"index",
+				"app/views/services/index.html.haml"
+			],
+			[
+				"servie",
+				"app/controllers/services_controller.rb"
+			],
+			[
+				"show",
+				"app/views/services/show.html.haml"
+			],
+			[
+				"inde",
+				"app/views/services/index.html.haml"
+			],
+			[
+				"footer",
+				"app/views/layouts/_footer.html.haml"
+			],
+			[
+				"applic",
+				"app/assets/stylesheets/application.css.scss"
+			],
+			[
+				"head",
+				"app/views/layouts/_header.html.haml"
+			],
+			[
+				"appli",
+				"app/assets/stylesheets/application.css.scss"
+			],
+			[
+				"new",
+				"app/views/devise/sessions/new.html.erb"
 			],
 			[
 				"devise",
@@ -658,7 +794,44 @@
 			],
 			[
 				"admin",
-				"app/models/admin.rb"
+				"db/migrate/20120705203320_devise_create_admins.rb"
+			],
+			[
+				"seed",
+				"db/seeds.rb"
+			],
+			[
+				"route",
+				"config/routes.rb"
+			],
+			[
+				"app",
+				"config/application.rb"
+			],
+			[
+<<<<<<< .merge_file_xHgvOO
+				"seeds",
+				"db/seeds.rb"
+=======
+				"gem",
+				"Gemfile"
+			],
+			[
+				"devise",
+				"config/initializers/devise.rb"
+>>>>>>> .merge_file_Zn6EgO
+			],
+			[
+				"migra",
+				"db/migrate/20120705203320_devise_create_admins.rb"
+			],
+			[
+				"sty",
+				"app/assets/stylesheets/application.css.scss"
+			],
+			[
+				"servi",
+				"app/views/layouts/_services.html.haml"
 			],
 			[
 				"env",
@@ -673,6 +846,12 @@
 				"app/models/status.rb"
 			],
 			[
+<<<<<<< .merge_file_xHgvOO
+				"appp",
+				"app/helpers/application_helper.rb"
+			],
+			[
+=======
 				"spec",
 				"spec/spec_helper.rb"
 			],
@@ -681,22 +860,11 @@
 				"config/routes.rb"
 			],
 			[
-				"service",
-				"app/models/service.rb"
-			],
-			[
-				"footer",
-				"app/views/layouts/_footer.html.haml"
-			],
-			[
-				"app",
-				"app/views/layouts/application.html.haml"
-			],
-			[
 				"appp",
 				"app/helpers/application_helper.rb"
 			],
 			[
+>>>>>>> .merge_file_Zn6EgO
 				"statu",
 				"app/models/status.rb"
 			],
@@ -705,10 +873,13 @@
 				"app/controllers/services_controller.rb"
 			],
 			[
+<<<<<<< .merge_file_xHgvOO
 				"inde",
 				"app/views/services/index.html.haml"
 			],
 			[
+=======
+>>>>>>> .merge_file_Zn6EgO
 				"servic",
 				"app/views/services/index.html.haml"
 			],
@@ -789,10 +960,6 @@
 				"config/application.rb"
 			],
 			[
-				"show",
-				"app/views/tickets/show.html.erb"
-			],
-			[
 				"schem",
 				"db/schema.rb"
 			],
@@ -869,10 +1036,6 @@
 				"features/assigning_permissions.feature"
 			],
 			[
-				"applic",
-				"app/views/layouts/application.html.erb"
-			],
-			[
 				"permis",
 				"app/controllers/admin/permissions_controller.rb"
 			],
@@ -927,10 +1090,6 @@
 			[
 				"regis",
 				"app/controllers/registrations_controller.rb"
-			],
-			[
-				"new",
-				"app/views/registrations/new.html.erb"
 			],
 			[
 				"proje",
@@ -1013,10 +1172,13 @@
 				"app/helpers/application_helper.rb"
 			],
 			[
+<<<<<<< .merge_file_xHgvOO
 				"applica",
 				"app/helpers/application_helper.rb"
 			],
 			[
+=======
+>>>>>>> .merge_file_Zn6EgO
 				"facto",
 				"features/support/factories.rb"
 			],
@@ -1101,10 +1263,6 @@
 				"app/controllers/projects_controller.rb"
 			],
 			[
-				"controll",
-				"app/controllers/projects_controller.rb"
-			],
-			[
 				"poject",
 				"features/step_definitions/project_steps.rb"
 			],
@@ -1119,6 +1277,7 @@
 			[
 				"aplic",
 				"app/views/layouts/application.html.erb"
+<<<<<<< .merge_file_xHgvOO
 			],
 			[
 				"entries",
@@ -1127,6 +1286,8 @@
 			[
 				"raffler",
 				"app/assets/javascripts/raffler.js.coffee"
+=======
+>>>>>>> .merge_file_Zn6EgO
 			]
 		],
 		"width": 0.0

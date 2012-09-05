@@ -16,13 +16,9 @@
   = csrf_meta_tag
 
 %body
-  .row
-    .twelve.columns
-      = render 'layouts/header'
-      = render 'layouts/messages'
-  .row
-    .twelve.columns
-      = yield
+  = render 'layouts/header'
+  = render 'layouts/messages'
+  = yield
   .row
     .ten.columns
       = render 'layouts/footer'

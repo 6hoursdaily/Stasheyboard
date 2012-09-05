@@ -36,11 +36,6 @@ p {
 	@include default_font
 }
 
-// #wrapper {
-// 	width: 900px; min-height: 100%;
-//   height: auto !important; height: 100%;
-//   // margin: auto auto;
-// }
 
 /* HEADER */
 
@@ -59,6 +54,9 @@ p {
 	font: 32px "Open Sans", arial, helvetica, verdana, sans-serif;
 	font-weight: bold;
 	color: black;
+	a:hover {
+		color: #525252;
+	}
 }
 				
 #page_header #email {
@@ -90,6 +88,30 @@ p {
 	position: relative;
 	width: 900px;
 
+	table#account_portal {
+		position: relative;
+		width: 100%;
+		border-collapse: separate;
+		background-color: transparent;
+		border-collapse: separate;
+		border-spacing: 0;
+		border-left: 1px solid $dark-grey;
+		border-top: 1px solid $dark-grey;
+		thead tr th {
+			background-color: #EEE;	
+			text-align: center;
+			padding: 10px;
+			border-bottom: 1px solid $dark-grey;
+			border-right: 1px solid $dark-grey;
+			font-weight: bold;
+			font-size: 16px;
+		}
+		tr {
+			font-size: 16px;
+			vertical-align: baseline;
+		}
+	}
+
 	table#services {
 		text-align: center;
 		border-collapse: separate;
@@ -107,6 +129,10 @@ p {
 		text-align: center;
 	}
 
+	.time {
+		width: 20%;
+	}
+
 	th {
 		background-color: white;
 		font-weight: bold;
@@ -115,8 +141,31 @@ p {
 	}
 }
 
+
+
+
+
+
 /* FOOTER */
 
 footer#page_footer {
 	padding: 30px 10px 20px 0;
 }
+
+
+/* FORMS */
+
+form {
+	width: 300px;
+}
+
+div#sign_in {
+	padding: 15px 0 10px 0;
+
+}
+
+#rss_feed {
+	float: right;
+
+}
+
