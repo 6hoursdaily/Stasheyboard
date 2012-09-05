@@ -32,14 +32,6 @@
 	"buffers":
 	[
 		{
-			"file": "app/views/layouts/_services.html.haml",
-			"settings":
-			{
-				"buffer_size": 256,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "app/models/status.rb",
 			"settings":
 			{
@@ -52,6 +44,54 @@
 			"settings":
 			{
 				"buffer_size": 94,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "features/updating_service_statuses.feature",
+			"settings":
+			{
+				"buffer_size": 236,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "config/initializers/devise.rb",
+			"settings":
+			{
+				"buffer_size": 11189,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "config/routes.rb",
+			"settings":
+			{
+				"buffer_size": 239,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "config/application.rb",
+			"settings":
+			{
+				"buffer_size": 3027,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "db/migrate/20120705203320_devise_create_admins.rb",
+			"settings":
+			{
+				"buffer_size": 1326,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "db/migrate/20120705203556_create_statuses.rb",
+			"settings":
+			{
+				"buffer_size": 153,
 				"line_ending": "Unix"
 			}
 		}
@@ -132,25 +172,30 @@
 	},
 	"file_history":
 	[
+		"/home/sircharles/dev/rails/Stashboard Project/stasheyboard/Gemfile",
+		"/home/sircharles/dev/rails/Stashboard Project/stasheyboard/app/views/services/show.html.haml",
+		"/home/sircharles/dev/rails/Stashboard Project/stasheyboard/app/views/services/index.html.haml",
+		"/home/sircharles/dev/rails/Stashboard Project/stasheyboard/db/seeds.rb",
+		"/home/sircharles/dev/rails/Stashboard Project/stasheyboard/app/views/layouts/_services.html.haml",
+		"/home/sircharles/dev/rails/Stashboard Project/stasheyboard/app/views/layouts/_header.html.haml",
+		"/home/sircharles/dev/rails/Stashboard Project/stasheyboard/app/assets/stylesheets/application.css.scss",
+		"/home/sircharles/dev/rails/Stashboard Project/stasheyboard/app/views/layouts/application.html.haml",
+		"/home/sircharles/dev/rails/Stashboard Project/stasheyboard/features/editing_service_statuses.feature",
+		"/home/sircharles/dev/rails/Stashboard Project/stasheyboard/features/editing_statuses.feature",
+		"/home/sircharles/dev/rails/Stashboard Project/stasheyboard/features/creating_statuses.feature",
+		"/home/sircharles/dev/rails/Stashboard Project/stasheyboard/db/migrate/20120905153057_add_status_id_to_services.rb",
 		"/home/sircharles/dev/rails/Stashboard Project/stasheyboard/features/seed.feature",
 		"/home/sircharles/dev/rails/Stashboard Project/stasheyboard/features/step_definitions/application_steps.rb",
 		"/home/sircharles/dev/rails/Stashboard Project/stasheyboard/app/models/admin.rb",
-		"/home/sircharles/dev/rails/Stashboard Project/stasheyboard/db/seeds.rb",
 		"/home/sircharles/dev/rails/Stashboard Project/stasheyboard/config/routes.rb",
 		"/home/sircharles/dev/rails/Stashboard Project/stasheyboard/features/support/env.rb",
-		"/home/sircharles/dev/rails/Stashboard Project/stasheyboard/Gemfile",
 		"/home/sircharles/dev/rails/Stashboard Project/stasheyboard/app/models/service.rb",
 		"/home/sircharles/dev/rails/Stashboard Project/stasheyboard/app/controllers/services_controller.rb",
-		"/home/sircharles/dev/rails/Stashboard Project/stasheyboard/app/assets/stylesheets/application.css.scss",
 		"/home/sircharles/dev/rails/Stashboard Project/stasheyboard/stasheyboard.sublime-project",
 		"/home/sircharles/dev/rails/Stashboard Project/stasheyboard/spec/spec_helper.rb",
 		"/home/sircharles/dev/rails/Stashboard Project/stasheyboard/app/views/layouts/_footer.html.haml",
-		"/home/sircharles/dev/rails/Stashboard Project/stasheyboard/app/views/layouts/application.html.haml",
 		"/home/sircharles/dev/rails/Stashboard Project/stasheyboard/app/helpers/application_helper.rb",
-		"/home/sircharles/dev/rails/Stashboard Project/stasheyboard/app/views/services/index.html.haml",
-		"/home/sircharles/dev/rails/Stashboard Project/stasheyboard/app/views/layouts/_services.html.haml",
 		"/home/sircharles/dev/rails/Stashboard Project/stasheyboard/app/models/status.rb",
-		"/home/sircharles/dev/rails/Stashboard Project/stasheyboard/app/views/layouts/_header.html.haml",
 		"/home/sircharles/dev/rails/Stashboard Project/stasheyboard/app/assets/stylesheets/foundation_and_overrides.scss",
 		"/home/sircharles/dev/rails/Stashboard Project/stasheyboard/app/assets/stylesheets/application.css",
 		"/home/sircharles/dev/rails/Stashboard Project/stasheyboard/app/views/layouts/_header.html.erb",
@@ -254,12 +299,7 @@
 		"/home/sircharles/railsprojects/ticketee/app/views/projects/show.html.erb",
 		"/home/sircharles/railsprojects/ticketee/spec/controllers/admin/permissions_controller_spec.rb",
 		"/home/sircharles/railsprojects/ticketee/app/controllers/projects_controller.rb",
-		"/home/sircharles/railsprojects/ticketee/app/controllers/users_controller.rb",
-		"/home/sircharles/railsprojects/ticketee/features/hidden_links.feature",
-		"/home/sircharles/railsprojects/ticketee/app/helpers/application_helper.rb",
-		"/home/sircharles/railsprojects/ticketee/spec/controllers/tickets_controller_spec.rb",
-		"/home/sircharles/railsprojects/ticketee/features/deleting_tickets.feature",
-		"/home/sircharles/railsprojects/ticketee/features/editing_tickets.feature"
+		"/home/sircharles/railsprojects/ticketee/app/controllers/users_controller.rb"
 	],
 	"find":
 	{
@@ -315,37 +355,11 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 6,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "app/views/layouts/_services.html.haml",
-					"settings":
-					{
-						"buffer_size": 256,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								248,
-								248
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/Ruby Haml.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
 					"file": "app/models/status.rb",
 					"settings":
 					{
@@ -371,7 +385,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 2,
+					"buffer": 1,
 					"file": "app/models/service.rb",
 					"settings":
 					{
@@ -382,8 +396,170 @@
 						"selection":
 						[
 							[
-								66,
-								66
+								65,
+								65
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "features/updating_service_statuses.feature",
+					"settings":
+					{
+						"buffer_size": 236,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								231,
+								231
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Cucumber/Cucumber Plain Text Feature.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "config/initializers/devise.rb",
+					"settings":
+					{
+						"buffer_size": 11189,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								745,
+								745
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "config/routes.rb",
+					"settings":
+					{
+						"buffer_size": 239,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "config/application.rb",
+					"settings":
+					{
+						"buffer_size": 3027,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								241,
+								241
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "db/migrate/20120705203320_devise_create_admins.rb",
+					"settings":
+					{
+						"buffer_size": 1326,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "db/migrate/20120705203556_create_statuses.rb",
+					"settings":
+					{
+						"buffer_size": 153,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								142,
+								142
 							]
 						],
 						"settings":
@@ -441,12 +617,44 @@
 		"selected_items":
 		[
 			[
-				"servi",
-				"app/models/service.rb"
+				"migra",
+				"db/migrate/20120705203320_devise_create_admins.rb"
+			],
+			[
+				"appli",
+				"config/application.rb"
 			],
 			[
 				"route",
 				"config/routes.rb"
+			],
+			[
+				"devise",
+				"config/initializers/devise.rb"
+			],
+			[
+				"gem",
+				"Gemfile"
+			],
+			[
+				"sty",
+				"app/assets/stylesheets/application.css.scss"
+			],
+			[
+				"head",
+				"app/views/layouts/_header.html.haml"
+			],
+			[
+				"servi",
+				"app/views/layouts/_services.html.haml"
+			],
+			[
+				"index",
+				"app/views/services/index.html.haml"
+			],
+			[
+				"seed",
+				"db/seeds.rb"
 			],
 			[
 				"admin",
@@ -455,10 +663,6 @@
 			[
 				"env",
 				"features/support/env.rb"
-			],
-			[
-				"gem",
-				"Gemfile"
 			],
 			[
 				"seeds",
@@ -489,16 +693,8 @@
 				"app/views/layouts/application.html.haml"
 			],
 			[
-				"index",
-				"app/views/services/index.html.haml"
-			],
-			[
 				"appp",
 				"app/helpers/application_helper.rb"
-			],
-			[
-				"appli",
-				"app/views/layouts/application.html.haml"
 			],
 			[
 				"statu",
@@ -511,10 +707,6 @@
 			[
 				"inde",
 				"app/views/services/index.html.haml"
-			],
-			[
-				"head",
-				"app/views/layouts/_header.html.haml"
 			],
 			[
 				"servic",
@@ -535,10 +727,6 @@
 			[
 				"heade",
 				"app/views/layouts/_header.html.erb"
-			],
-			[
-				"seed",
-				"db/seeds.rb"
 			],
 			[
 				"rout",
@@ -829,10 +1017,6 @@
 				"app/helpers/application_helper.rb"
 			],
 			[
-				"devise",
-				"spec/support/devise.rb"
-			],
-			[
 				"facto",
 				"features/support/factories.rb"
 			],
@@ -913,10 +1097,6 @@
 				"features/creating_tickets.feature"
 			],
 			[
-				"migra",
-				"db/migrate/20120416195401_create_projects.rb"
-			],
-			[
 				"rojects",
 				"app/controllers/projects_controller.rb"
 			],
@@ -947,10 +1127,6 @@
 			[
 				"raffler",
 				"app/assets/javascripts/raffler.js.coffee"
-			],
-			[
-				"main",
-				"app/controllers/main_controller.rb"
 			]
 		],
 		"width": 0.0
@@ -967,6 +1143,6 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": false,
-	"side_bar_width": 232.0,
+	"side_bar_width": 440.0,
 	"status_bar_visible": false
 }
