@@ -13,15 +13,15 @@ admin_user = Admin.create!({email: "admin@rashboard.com", password: "password"})
 admin_user.admin = true
 admin_user.confirm!
 
-
-# services!
-
-Service.create!({name: "Ulysses"})
-Service.create!({name: "Goliath"})
-Service.create!({name: "Zeus"})
-
 # statuses!
 
 Status.create!({name: "Up"})
 Status.create!({name: "Down"})
 Status.create!({name: "Troubled"})
+
+# services!
+
+Service.create!({name: "Ulysses", status: "Up"})
+Service.create!({name: "Goliath", status: "Up"})
+Service.create!({name: "Zeus", status: "Down"})
+
