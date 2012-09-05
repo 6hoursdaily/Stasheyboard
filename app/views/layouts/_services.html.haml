@@ -5,8 +5,10 @@
       %th{:class => "today"} Today
       - (1..6).each do |x|
         %th= "#{(Date.today - x).strftime("%a. %d")}"
-
   %tbody
-    %tr
-      %td
+    - @services.each do |service|
+      %tr
+        %td= service.status.name
+
+
 

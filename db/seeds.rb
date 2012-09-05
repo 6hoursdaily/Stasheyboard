@@ -9,13 +9,16 @@
 
 # Create Admin user
 
-Admin.create!({email: "admin@rashboard.com", password: "password"})
+admin_user = Admin.create!({email: "admin@rashboard.com", password: "password"})
+admin_user.admin = true
+admin_user.confirm!
 
 
 # services!
 
-Service.create!({name: "Server 1"})
-Service.create!({name: "Server 2"})
+Service.create!({name: "Ulysses"})
+Service.create!({name: "Goliath"})
+Service.create!({name: "Zeus"})
 
 # statuses!
 
