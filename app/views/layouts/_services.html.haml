@@ -3,7 +3,10 @@
     %tr
       %th Service
       %th{:class => "today"} Today
-        = date_presenter
+      - (1..6).each do |x|
+        %th= "#{(Date.today - x).strftime("%a. %d")}"
+
   %tbody
     %tr
       %td
+
