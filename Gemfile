@@ -27,10 +27,6 @@ gem 'devise'
 gem 'thin'
 gem 'haml-rails'
 
-group :development do
-	gem 'parallel_tests'
-end
-
 group :test, :development do
 	gem 'rspec-rails', '~> 2.5'
 end
