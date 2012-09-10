@@ -26,6 +26,7 @@ gem 'jquery-rails'
 gem 'devise'
 gem 'thin'
 gem 'haml-rails'
+gem 'squeel'
 
 group :test, :development do
 	gem 'rspec-rails', '~> 2.5'
