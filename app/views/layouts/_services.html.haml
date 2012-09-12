@@ -9,6 +9,7 @@
     - @services.each do |service|
       %tr
         %td= link_to service.name, service
+        %td= current_status(service.id)
 
 
 

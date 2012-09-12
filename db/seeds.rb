@@ -11,15 +11,15 @@
 
 admin_user = Admin.create!({email: "admin@stasheyboard.com", password: "password"})
 
-# statuses!
-
-Status.create!({name: "Up"})
-Status.create!({name: "Down"})
-Status.create!({name: "Troubled"})
-
 # services!
 
 Service.create!({name: "Ulysses"})
 Service.create!({name: "Goliath"})
 Service.create!({name: "Zeus"})
+
+# statuses!
+
+Status.create!({name: "Up", message:  "A-ok", service_id: 1})
+Status.create!({name: "Down", message: 'Uh-oh', service_id: 2})
+Status.create!({name: "Troubled", message: 'Argh', service_id: 3})
 

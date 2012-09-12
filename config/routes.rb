@@ -1,4 +1,10 @@
 Stasheyboard::Application.routes.draw do
+  get "statuses/index"
+
+  get "statuses/show"
+
+  get "statuses/create"
+
   devise_for :admins
 
 
