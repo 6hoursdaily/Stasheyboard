@@ -1,4 +1,4 @@
 == Welcome to Stasheyboard
 
-This here is a rendition of Stashboard using Rails.  That's about all the relevant news for the moment.
-endor/rails/. This directory is in the load path.
+This here is a rendition of Stashboard using Rails, Zurb Foundation, HAML, and Devise.
+
