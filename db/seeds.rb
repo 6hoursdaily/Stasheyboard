@@ -18,8 +18,8 @@ Service.create!({name: "Goliath"})
 Service.create!({name: "Zeus"})
 
 # statuses!
-
 Status.create!({name: "Up", message:  "A-ok", service_id: 1})
 Status.create!({name: "Down", message: 'Uh-oh', service_id: 2})
 Status.create!({name: "Troubled", message: 'Argh', service_id: 3})
+
 

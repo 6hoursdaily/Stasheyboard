@@ -2,7 +2,7 @@
   %thead
     %tr
       %th Service
-      %th{:class => "today"} Today
+      %th{:class => "today"} Current
       - (1..6).each do |x|
         %th= "#{(Date.today - x).strftime("%a. %d")}"
   %tbody
@@ -11,5 +11,6 @@
         %td= link_to service.name, service
         %td= current_status(service.id)
 
-
-
+        // %td= service_status_at(service.id, "#{Date.today - 1}")
+        // %td= service_status_at(service.id, "#{Date.today - 2}")
+        // ...

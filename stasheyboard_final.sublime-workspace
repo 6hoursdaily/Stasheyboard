@@ -1,0 +1,1045 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"input",
+				"input	input - submit"
+			],
+			[
+				"form",
+				"form"
+			],
+			[
+				"li",
+				"li"
+			],
+			[
+				"ul",
+				"ul"
+			],
+			[
+				"link",
+				"link	link - stylesheet"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "app/models/status.rb",
+			"settings":
+			{
+				"buffer_size": 110,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/models/service.rb",
+			"settings":
+			{
+				"buffer_size": 93,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/layouts/_services.html.haml",
+			"settings":
+			{
+				"buffer_size": 306,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/helpers/application_helper.rb",
+			"settings":
+			{
+				"buffer_size": 1123,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "config/application.rb",
+			"settings":
+			{
+				"buffer_size": 3027,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"reind",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Remove Package"
+			],
+			[
+				"fet",
+				"Fetch"
+			],
+			[
+				"fetc",
+				"Fetch"
+			],
+			[
+				":W",
+				":w - Save"
+			],
+			[
+				":w",
+				":w - Save"
+			],
+			[
+				"instl",
+				"Package Control: Install Package"
+			],
+			[
+				"fetch",
+				"Fetch: Manage remote files"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"packag",
+				"Package Control: List Packages"
+			]
+		],
+		"width": 593.0
+	},
+	"console":
+	{
+		"height": 160.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/sircharles/dev/rails/Stashboard Project/stasheyboard/app/controllers/services_controller.rb",
+		"/home/sircharles/dev/rails/Stashboard Project/stasheyboard/app/views/layouts/_services.html.haml",
+		"/home/sircharles/dev/rails/Stashboard Project/stasheyboard/stasheyboard.sublime-workspace",
+		"/home/sircharles/web_dev/monkey_blog/sass/custom/_styles.scss",
+		"/home/sircharles/.config/sublime-text-2/Packages/User/octopress_codeblock.sublime-snippet",
+		"/home/sircharles/.config/sublime-text-2/Packages/User/Cuke_feature.sublime-snippet",
+		"/home/sircharles/web_dev/dev_blog/source/_posts/2012-09-11-some-things-i-learned-about-cucumber.markdown",
+		"/home/sircharles/CODE/Python/Buddha-Doro/buddhadoro.py",
+		"/home/sircharles/web_dev/dev_blog/.gitignore",
+		"/home/sircharles/CODE/Python/Buddha-Doro/README.md",
+		"/home/sircharles/CODE/Ruby/Hard/ex39.rb",
+		"/home/sircharles/web_dev/dev_blog/_config.yml",
+		"/home/sircharles/dev/rails/depot/app/views/products/index.html.haml",
+		"/home/sircharles/dev/rails/depot/app/assets/stylesheets/application.css.scss",
+		"/home/sircharles/dev/rails/depot/app/models/product.rb",
+		"/home/sircharles/dev/rails/depot/app/views/products/show.html.haml",
+		"/home/sircharles/dev/rails/depot/app/views/layouts/application.html.haml",
+		"/home/sircharles/dev/rails/depot/app/views/layouts/_messages.html.haml",
+		"/home/sircharles/dev/rails/depot/app/controllers/products_controller.rb",
+		"/home/sircharles/dev/rails/depot/app/views/products/new.html.haml",
+		"/home/sircharles/dev/rails/depot/app/views/products/edit.html.haml",
+		"/home/sircharles/dev/rails/depot/app/views/products/_form.html.haml",
+		"/home/sircharles/dev/rails/depot/app/assets/javascripts/application.js",
+		"/home/sircharles/dev/rails/depot/app/views/layout/_messages.html.haml",
+		"/home/sircharles/dev/rails/depot/.gitignore",
+		"/home/sircharles/dev/rails/depot/db/seeds.rb",
+		"/home/sircharles/dev/rails/depot/config/application.rb",
+		"/home/sircharles/dev/rails/depot/spec/spec_helper.rb",
+		"/home/sircharles/dev/rails/depot/Gemfile",
+		"/home/sircharles/dev/rails/depot/features/support/env.rb",
+		"/home/sircharles/railsprojects/sucks_rocks/spec/services/rock_score_spec.rb",
+		"/home/sircharles/dev/rails/depot/config/routes.rb",
+		"/home/sircharles/dev/rails/depot/app/assets/stylesheets/foundation_and_overrides.scss",
+		"/home/sircharles/dev/rails/depot/app/assets/stylesheets/application.css",
+		"/home/sircharles/dev/rails/depot/app/views/layouts/application.html.erb",
+		"/home/sircharles/dev/rails/depot/config/database.yml",
+		"/home/sircharles/railsprojects/sucks_rocks/Gemfile",
+		"/home/sircharles/railsprojects/sucks_rocks/features/search.feature",
+		"/home/sircharles/railsprojects/sucks_rocks/spec/services/search_engine_spec.rb",
+		"/home/sircharles/railsprojects/sucks_rocks/app/services/search_engine.rb",
+		"/home/sircharles/railsprojects/sucks_rocks/features/step_definitions/search_steps.rb",
+		"/home/sircharles/railsprojects/sucks_rocks/app/services/rock_score.rb",
+		"/home/sircharles/railsprojects/sucks_rocks/config/database.yml",
+		"/home/sircharles/railsprojects/sucks_rocks/spec/spec_helper.rb",
+		"/home/sircharles/railsprojects/sucks_rocks/spec/services/rock_score.rb",
+		"/home/sircharles/railsprojects/sucks_rocks/config/application.rb",
+		"/home/sircharles/railsprojects/sucks_rocks/spec/foo_spec.rb",
+		"/home/sircharles/railsprojects/sucks_rocks/features/support/env.rb",
+		"/home/sircharles/railsprojects/Stasheyboard/Gemfile",
+		"/home/sircharles/railsprojects/Stasheyboard/.gitignore",
+		"/home/sircharles/railsprojects/STASHEYboard/app/models/comment.rb",
+		"/home/sircharles/railsprojects/STASHEYboard/app/models/service.rb",
+		"/home/sircharles/railsprojects/STASHEYboard/app/controllers/statuses_controller.rb",
+		"/home/sircharles/railsprojects/STASHEYboard/app/models/status.rb",
+		"/home/sircharles/railsprojects/STASHEYboard/app/controllers/services_controller.rb",
+		"/home/sircharles/railsprojects/STASHEYboard/Gemfile",
+		"/home/sircharles/railsprojects/STASHEYboard/db/seeds.rb",
+		"/home/sircharles/railsprojects/STASHEYboard/app/models/user.rb",
+		"/home/sircharles/railsprojects/STASHEYboard/config/routes.rb",
+		"/home/sircharles/railsprojects/STASHEYboard/app/assets/stylesheets/application.css.scss",
+		"/home/sircharles/railsprojects/STASHEYboard/app/views/services/index.html.haml",
+		"/home/sircharles/railsprojects/STASHEYboard/spec/factories/statuses.rb",
+		"/home/sircharles/railsprojects/STASHEYboard/app/views/layouts/_footer.html.haml",
+		"/home/sircharles/railsprojects/STASHEYboard/app/views/services/show.html.haml",
+		"/home/sircharles/railsprojects/STASHEYboard/app/views/layouts/application.html.haml",
+		"/home/sircharles/railsprojects/CUKE_book/MY_CODE/lib/nice_bank.rb",
+		"/home/sircharles/railsprojects/CUKE_book/MY_CODE/features/cash_withdrawal.feature",
+		"/home/sircharles/railsprojects/CUKE_book/MY_CODE/features/support/world_extensions.rb",
+		"/home/sircharles/railsprojects/CUKE_book/MY_CODE/features/support/hooks.rb",
+		"/home/sircharles/railsprojects/CUKE_book/MY_CODE/features/support/debugging.rb",
+		"/home/sircharles/railsprojects/CUKE_book/MY_CODE/features/step_definitions/teller_steps.rb",
+		"/home/sircharles/railsprojects/CUKE_book/MY_CODE/features/step_definitions/account_steps.rb",
+		"/home/sircharles/railsprojects/CUKE_book/MY_CODE/Gemfile",
+		"/home/sircharles/railsprojects/CUKE_book/MY_CODE/features/support/env.rb",
+		"/home/sircharles/railsprojects/CUKE_book/MY_CODE/features/support/transforms.rb",
+		"/home/sircharles/railsprojects/CUKE_book/MY_CODE/atm/lib/nice_bank.rb",
+		"/home/sircharles/railsprojects/CUKE_book/MY_CODE/atm/features/step_definitions/account_steps.rb",
+		"/home/sircharles/railsprojects/CUKE_book/MY_CODE/atm/features/cash_withdrawal.feature",
+		"/home/sircharles/railsprojects/CUKE_book/MY_CODE/atm/features/step_definitions/teller_steps.rb",
+		"/home/sircharles/railsprojects/CUKE_book/MY_CODE/atm/features/step_definitions/cash_slot_steps.rb",
+		"/home/sircharles/railsprojects/CUKE_book/MY_CODE/atm/features/support/world_extensions.rb",
+		"/home/sircharles/railsprojects/CUKE_book/MY_CODE/atm/features/step_definitions/steps.rb",
+		"/home/sircharles/railsprojects/CUKE_book/MY_CODE/atm/features/support/env.rb",
+		"/home/sircharles/railsprojects/CUKE_book/MY_CODE/atm/step_definitions/account_steps.rb",
+		"/home/sircharles/railsprojects/CUKE_book/MY_CODE/atm/features/support/transforms.rb",
+		"/home/sircharles/railsprojects/new_note_suey/config/routes.rb",
+		"/home/sircharles/railsprojects/new_note_suey/Gemfile",
+		"/home/sircharles/railsprojects/new_note_suey/app/models/user.rb",
+		"/home/sircharles/railsprojects/new_note_suey/spec/models/user_spec.rb",
+		"/home/sircharles/railsprojects/new_note_suey/spec/factories/users.rb",
+		"/home/sircharles/railsprojects/new_note_suey/config/application.rb",
+		"/home/sircharles/railsprojects/new_note_suey/spec/helpers/home_helper_spec.rb",
+		"/home/sircharles/railsprojects/new_note_suey/spec/factories/notes.rb",
+		"/home/sircharles/railsprojects/new_note_suey/spec/models/note_spec.rb",
+		"/home/sircharles/railsprojects/new_note_suey/spec/controllers/users_controller_spec.rb",
+		"/home/sircharles/railsprojects/new_note_suey/spec/views/home/index.html.haml_spec.rb",
+		"/home/sircharles/railsprojects/new_note_suey/features/support/env.rb",
+		"/home/sircharles/railsprojects/new_note_suey/spec/spec_helper.rb",
+		"/home/sircharles/railsprojects/new_note_suey/app/controllers/users_controller.rb",
+		"/home/sircharles/railsprojects/new_note_suey/app/models/note.rb",
+		"/home/sircharles/.config/sublime-text-2/Packages/User/Preferences.sublime-settings",
+		"/home/sircharles/.config/sublime-text-2/Packages/Default/Preferences.sublime-settings",
+		"/home/sircharles/railsprojects/new_note_suey/config/mongoid.yml",
+		"/home/sircharles/railsprojects/note_suey/app/views/notes/_form.html.haml",
+		"/home/sircharles/railsprojects/note_suey/features/creating_notes.feature",
+		"/home/sircharles/railsprojects/note_suey/features/step_definitions/web_steps.rb",
+		"/home/sircharles/railsprojects/note_suey/Gemfile",
+		"/home/sircharles/railsprojects/note_suey/spec/spec_helper.rb",
+		"/home/sircharles/railsprojects/note_suey/features/support/env.rb",
+		"/home/sircharles/railsprojects/note_suey/app/controllers/notes_controller.rb",
+		"/home/sircharles/railsprojects/note_suey/app/views/home/index.html.haml",
+		"/home/sircharles/railsprojects/note_suey/spec/factories/notes.rb",
+		"/home/sircharles/railsprojects/note_suey/config/routes.rb",
+		"/home/sircharles/railsprojects/note_suey/app/models/note.rb",
+		"/home/sircharles/railsprojects/note_suey/app/models/user.rb",
+		"/home/sircharles/railsprojects/note_suey/factories/user_factory.rb",
+		"/home/sircharles/railsprojects/note_suey/spec/controllers/notes_controller_spec.rb",
+		"/home/sircharles/railsprojects/note_suey/spec/support/factories.rb",
+		"/home/sircharles/railsprojects/note_suey/app/views/layouts/application.html.haml",
+		"/home/sircharles/railsprojects/note_suey/app/views/layouts/_navigation.html.haml",
+		"/home/sircharles/railsprojects/note_suey/config/initializers/clearance.rb",
+		"/home/sircharles/railsprojects/note_suey/app/views/notes/show.html.haml",
+		"/home/sircharles/railsprojects/note_suey/app/views/notes/new.html.haml",
+		"/home/sircharles/railsprojects/note_suey/app/assets/stylesheets/layout.css.scss",
+		"/home/sircharles/railsprojects/note_suey/features/support/selectors.rb",
+		"/home/sircharles/railsprojects/note_suey/features/support/paths.rb",
+		"/home/sircharles/railsprojects/note_suey/db/migrate/20120725043456_create_notes.rb",
+		"/home/sircharles/railsprojects/note_suey/config/environment.rb"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"/home/sircharles/railsprojects"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"CAPTURE_A_NUMBER",
+			"cookie",
+			"product",
+			"  ",
+			"#!/usr/bin/ruby\n\n# palindrome2.rb\n\n=begin rdoc\nGives every <b>String</b> the ability to identify whether it is \na palindrome.  This version ignores all non-alphabetic chars,\nmaking it suitable for longer texts.\n=end\n\nclass String\n\n	DUAL_CASE_ALPHABET = ('a'..'z').to_a + ('A'..'Z').to_a  # <-- 1 -->\n	\n\n\n=begin rdoc\nContrast this with other langs.; involving iterating through each\nstring index and comparing the same index from the opposite end.\nTakes 1 optional Boolean, which indicates whether case matters.\nAssumed to be true.\n=end\n\n  def palindrome?(case_matters=true)\n  	letters_only(case_matters) == letters_only(case_matters).reverse\n  end\n\n  private\n\n=begin rdoc\nTakes 1 optional Boolean, which indicates whether case matters.\nAssumed to be false\n=end\n\n	def letters_only(case_matters=false)  # <-- 3 - find_all method -->\n		just_letters = split('').find_all do |char|\n			DUAL_CASE_ALPHABET.include?(char)\n		end.join('')\n		return just_letters if (case_matters)\n		return just_letters.downcase\n	end\n\nend\n",
+			"enter",
+			"down",
+			"comment",
+			"CREATE",
+			"pagedown",
+			"create",
+			"all",
+			"view",
+			"tab",
+			"escape",
+			"tab",
+			"title"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"CAPTURE_CASH_AMOUNT",
+			"ptooeyballs"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 4,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "app/models/status.rb",
+					"settings":
+					{
+						"buffer_size": 110,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/models/service.rb",
+					"settings":
+					{
+						"buffer_size": 93,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/views/layouts/_services.html.haml",
+					"settings":
+					{
+						"buffer_size": 306,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/Ruby Haml.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/helpers/application_helper.rb",
+					"settings":
+					{
+						"buffer_size": 1123,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1107,
+								1107
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 418.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "config/application.rb",
+					"settings":
+					{
+						"buffer_size": 3027,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3027,
+								3027
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 814.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 36.0
+	},
+	"input":
+	{
+		"height": 36.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 229.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"appli",
+				"config/application.rb"
+			],
+			[
+				"helper",
+				"app/helpers/application_helper.rb"
+			],
+			[
+				"services",
+				"app/views/layouts/_services.html.haml"
+			],
+			[
+				"service",
+				"app/views/layouts/_services.html.haml"
+			],
+			[
+				"controll",
+				"app/controllers/services_controller.rb"
+			],
+			[
+				"status",
+				"app/models/status.rb"
+			],
+			[
+				"styles",
+				"sass/custom/_styles.scss"
+			],
+			[
+				"tit",
+				"source/_posts/2012-09-12-code-titbits-no-1.markdown"
+			],
+			[
+				"cucumbe",
+				"source/_posts/2012-09-11-some-things-i-learned-about-cucumber.markdown"
+			],
+			[
+				"config",
+				"_config.yml"
+			],
+			[
+				"new",
+				"app/views/products/new.html.haml"
+			],
+			[
+				"mess",
+				"app/views/layouts/_messages.html.haml"
+			],
+			[
+				"inde",
+				"app/views/products/index.html.haml"
+			],
+			[
+				"show",
+				"app/views/products/show.html.haml"
+			],
+			[
+				"form",
+				"app/views/products/_form.html.haml"
+			],
+			[
+				"edit",
+				"app/views/products/edit.html.haml"
+			],
+			[
+				"contro",
+				"app/controllers/products_controller.rb"
+			],
+			[
+				"java",
+				"app/assets/javascripts/application.js"
+			],
+			[
+				"prod",
+				"app/models/product.rb"
+			],
+			[
+				"git",
+				".gitignore"
+			],
+			[
+				"seed",
+				"db/seeds.rb"
+			],
+			[
+				"index",
+				"app/views/products/index.html.haml"
+			],
+			[
+				"applic",
+				"app/views/layouts/application.html.haml"
+			],
+			[
+				"app",
+				"config/application.rb"
+			],
+			[
+				"gem",
+				"Gemfile"
+			],
+			[
+				"env",
+				"features/support/env.rb"
+			],
+			[
+				"spec",
+				"spec/spec_helper.rb"
+			],
+			[
+				"founda",
+				"app/assets/stylesheets/foundation_and_overrides.scss"
+			],
+			[
+				"ed",
+				"app/views/products/edit.html.haml"
+			],
+			[
+				"route",
+				"config/routes.rb"
+			],
+			[
+				"data",
+				"config/database.yml"
+			],
+			[
+				"search",
+				"app/services/search_engine.rb"
+			],
+			[
+				"feat",
+				"features/search.feature"
+			],
+			[
+				"step",
+				"features/step_definitions/search_steps.rb"
+			],
+			[
+				"featu",
+				"features/search.feature"
+			],
+			[
+				"rocks",
+				"app/services/rock_score.rb"
+			],
+			[
+				"rock",
+				"app/services/rock_score.rb"
+			],
+			[
+				"comment",
+				"app/models/comment.rb"
+			],
+			[
+				"statu",
+				"app/models/status.rb"
+			],
+			[
+				"footer",
+				"app/views/layouts/_footer.html.haml"
+			],
+			[
+				"servic",
+				"app/models/service.rb"
+			],
+			[
+				"user",
+				"app/models/user.rb"
+			],
+			[
+				"world",
+				"features/support/world_extensions.rb"
+			],
+			[
+				"teller",
+				"features/step_definitions/teller_steps.rb"
+			],
+			[
+				"lib",
+				"lib/nice_bank.rb"
+			],
+			[
+				"cash_",
+				"atm/features/cash_withdrawal.feature"
+			],
+			[
+				"rout",
+				"config/routes.rb"
+			],
+			[
+				"users",
+				"app/controllers/users_controller.rb"
+			],
+			[
+				"user_sp",
+				"spec/models/user_spec.rb"
+			],
+			[
+				"spec_",
+				"spec/spec_helper.rb"
+			],
+			[
+				"note_sp",
+				"spec/models/note_spec.rb"
+			],
+			[
+				"note",
+				"app/models/note.rb"
+			],
+			[
+				"notes",
+				"spec/factories/notes.rb"
+			],
+			[
+				"sp",
+				"spec/spec_helper.rb"
+			],
+			[
+				"mongo",
+				"config/mongoid.yml"
+			],
+			[
+				"web",
+				"features/step_definitions/web_steps.rb"
+			],
+			[
+				"user_fac",
+				"factories/user_factory.rb"
+			],
+			[
+				"nav",
+				"app/views/layouts/_navigation.html.haml"
+			],
+			[
+				"feature",
+				"features/creating_notes.feature"
+			],
+			[
+				"clear",
+				"config/initializers/clearance.rb"
+			],
+			[
+				"w_ste",
+				"features/step_definitions/web_steps.rb"
+			],
+			[
+				"migr",
+				"db/migrate/20120725043456_create_notes.rb"
+			],
+			[
+				"ind",
+				"app/views/home/index.html.haml"
+			],
+			[
+				"navi",
+				"app/views/layouts/_navigation.html.haml"
+			],
+			[
+				"test_hel",
+				"test/test_helper.rb"
+			],
+			[
+				"test",
+				"config/environments/test.rb"
+			],
+			[
+				"html",
+				"spa-01.html"
+			],
+			[
+				"view",
+				"features/viewing_tickets.feature"
+			],
+			[
+				"delet",
+				"features/deleting_tickets.feature"
+			],
+			[
+				"cret",
+				"features/creating_tickets.feature"
+			],
+			[
+				"project",
+				"app/models/project.rb"
+			],
+			[
+				"permission",
+				"spec/models/permission_spec.rb"
+			],
+			[
+				"permi",
+				"app/models/permission.rb"
+			],
+			[
+				"projects",
+				"spec/controllers/projects_controller_spec.rb"
+			],
+			[
+				"perm",
+				"features/step_definitions/permission_steps.rb"
+			],
+			[
+				"migra",
+				"db/migrate/20120614021200_create_permissions.rb"
+			],
+			[
+				"edi",
+				"app/views/admin/users/edit.html.erb"
+			],
+			[
+				"creat",
+				"features/creating_users.feature"
+			],
+			[
+				"projec",
+				"factories/project_factory.rb"
+			],
+			[
+				"edti",
+				"features/editing_tickets.feature"
+			],
+			[
+				"project_",
+				"factories/project_factory.rb"
+			],
+			[
+				"dele",
+				"features/deleting_tickets.feature"
+			],
+			[
+				"editi",
+				"features/editing_projects.feature"
+			],
+			[
+				"del",
+				"features/deleting_tickets.feature"
+			],
+			[
+				"migrat",
+				"db/migrate/20120530164441_add_admin_to_users.rb"
+			],
+			[
+				"confirm",
+				"db/migrate/20120526034258_add_confirmable_fields_to_users.rb"
+			],
+			[
+				"devis",
+				"config/initializers/devise.rb"
+			],
+			[
+				"deve",
+				"config/environments/development.rb"
+			],
+			[
+				"ticket",
+				"app/controllers/tickets_controller.rb"
+			],
+			[
+				"proje",
+				"app/models/project.rb"
+			],
+			[
+				"ticket_sp",
+				"spec/models/ticket_spec.rb"
+			],
+			[
+				"ticket_st",
+				"features/step_definitions/ticket_steps.rb"
+			],
+			[
+				"project_s",
+				"features/step_definitions/project_steps.rb"
+			],
+			[
+				"tickets",
+				"spec/helpers/tickets_helper_spec.rb"
+			],
+			[
+				"tick",
+				"app/models/ticket.rb"
+			],
+			[
+				"pro",
+				"app/models/project.rb"
+			],
+			[
+				"editin",
+				"features/editing_projects.feature"
+			],
+			[
+				"paths",
+				"features/support/paths.rb"
+			],
+			[
+				"proj",
+				"app/models/project.rb"
+			],
+			[
+				"read",
+				"README"
+			],
+			[
+				"routes",
+				"config/routes.rb"
+			],
+			[
+				"sche",
+				"db/schema.rb"
+			],
+			[
+				"sed",
+				"db/seeds.rb"
+			],
+			[
+				"asset",
+				"app/models/asset.rb"
+			],
+			[
+				"files",
+				"app/controllers/files_controller.rb"
+			],
+			[
+				"files_",
+				"spec/controllers/files_controller_spec.rb"
+			],
+			[
+				"create",
+				"db/migrate/20120517192540_create_assets.rb"
+			],
+			[
+				"schem",
+				"db/schema.rb"
+			],
+			[
+				"shem",
+				"db/schema.rb"
+			],
+			[
+				"assets",
+				"db/migrate/20120517192540_create_assets.rb"
+			],
+			[
+				"_form",
+				"app/views/tickets/_form.html.erb"
+			],
+			[
+				".git",
+				".gitignore"
+			],
+			[
+				"fix",
+				"spec/fixtures/speed.txt"
+			],
+			[
+				"attach",
+				"db/migrate/20120516162604_add_attachment_asset_to_ticket.rb"
+			],
+			[
+				"rot",
+				"public/robots.txt"
+			],
+			[
+				"seeds",
+				"db/seeds.rb"
+			],
+			[
+				"permissions_hel",
+				"spec/helpers/admin/permissions_helper_spec.rb"
+			],
+			[
+				"perms",
+				"app/helpers/admin/permissions_helper.rb"
+			],
+			[
+				"assign",
+				"features/assigning_permissions.feature"
+			],
+			[
+				"assig",
+				"features/assigning_permissions.feature"
+			],
+			[
+				"permis",
+				"app/controllers/admin/permissions_controller.rb"
+			],
+			[
+				"ass",
+				"features/assigning_permissions.feature"
+			],
+			[
+				"permiss",
+				"features/step_definitions/permission_steps.rb"
+			],
+			[
+				"permss",
+				"app/helpers/admin/permissions_helper.rb"
+			],
+			[
+				"controller",
+				"app/controllers/tickets_controller.rb"
+			],
+			[
+				"hidden",
+				"features/hidden_links.feature"
+			],
+			[
+				"editing",
+				"features/editing_tickets.feature"
+			],
+			[
+				"sign",
+				"features/signing_up.feature"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 232.0,
+	"status_bar_visible": false
+}

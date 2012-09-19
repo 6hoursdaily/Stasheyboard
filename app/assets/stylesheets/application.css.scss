@@ -86,7 +86,31 @@ p {
 	border: 1px solid $dark-grey;
 	padding: 20px;
 	position: relative;
-	width: 900px;
+	// width: 900px;
+
+	table#account_portal {
+		position: relative;
+		width: 100%;
+		border-collapse: separate;
+		background-color: transparent;
+		border-collapse: separate;
+		border-spacing: 0;
+		border-left: 1px solid $dark-grey;
+		border-top: 1px solid $dark-grey;
+		thead tr th {
+			background-color: #EEE;	
+			text-align: center;
+			padding: 10px;
+			border-bottom: 1px solid $dark-grey;
+			border-right: 1px solid $dark-grey;
+			font-weight: bold;
+			font-size: 16px;
+		}
+		tr {
+			font-size: 16px;
+			vertical-align: baseline;
+		}
+	}
 
 	table#account_portal {
 		position: relative;
@@ -138,6 +162,10 @@ p {
 		font-weight: bold;
 		border-bottom: 1px solid $dark-grey;
 		border-right: 1px solid $dark-grey;
+	}
+
+	td {
+		text-align: center;
 	}
 }
 
