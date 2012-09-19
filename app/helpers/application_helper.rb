@@ -29,7 +29,7 @@ module ApplicationHelper
     s.statuses.where("DATE(created_at) = DATE(?)", Date.today).last.name
   end
 
-  
+
   def current_status(id)
     s = Service.find_by_id(id)
     todays_stats = s.statuses.where("DATE(created_at) = DATE(?)", Date.today)
