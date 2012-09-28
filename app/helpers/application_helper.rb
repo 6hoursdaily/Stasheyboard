@@ -26,4 +26,14 @@ module ApplicationHelper
     image_for_status(status)
   end 
 
+  def message_helper(service_id)
+    s = Service.find(id)
+    unless s.statuses.last.message.nil?
+      s.statuses.last.message
+    else
+      "Unknown"
+    end
+  end
+
+
 end
