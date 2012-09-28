@@ -6,6 +6,5 @@ class ServicesController < ApplicationController
 
   def show
     @services = Service.all
-    @service = Service.find_by_id(params[:id])
   end
 end

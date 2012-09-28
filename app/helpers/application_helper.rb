@@ -27,7 +27,7 @@ module ApplicationHelper
   end 
 
   def message_helper(service_id)
-    s = Service.find(id)
+    s = Service.find(service_id)
     unless s.statuses.last.message.nil?
       s.statuses.last.message
     else
