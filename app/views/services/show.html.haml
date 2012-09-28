@@ -2,7 +2,7 @@
 .row
   .ten.columns.centered
     #rss_feed= link_to image_tag("feed-icon-14x14.png"), "http://www.feedburner.com"
-    %h3 Account Portal
+    %h3= "Service: #{@service.name}"
 .row
   .ten.columns.centered#content
     %table#account_portal
@@ -12,9 +12,9 @@
           %th Status
           %th Message
       %tbody
-        - @services.each do |service|
+        - @statuses.each do |status|
           %tr
-          %td= service.name
-          %td= current_status(service.id)
-          %td= message_helper(service.id)
+          %td= status.created_at.strftime("%D")
+          %td= image_for_status(status.name)
+          %td= message_helper(status)
       

@@ -5,6 +5,7 @@ class ServicesController < ApplicationController
 	end
 
   def show
-    @services = Service.all
+    @service = Service.find(params[:id])
+    @statuses = @service.statuses.last(4).reverse
   end
 end

@@ -26,10 +26,14 @@ module ApplicationHelper
     image_for_status(status)
   end 
 
-  def message_helper(service_id)
-    s = Service.find(service_id)
-    unless s.statuses.last.message.nil?
-      s.statuses.last.message
+  def message_helper(status)
+    # unless s.statuses.last.message.nil?
+    #   s.statuses.last.message
+    # else
+    #   "Unknown"
+    # end
+    unless status.message.blank?
+      status.message
     else
       "Unknown"
     end
