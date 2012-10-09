@@ -5,6 +5,8 @@ Stasheyboard::Application.routes.draw do
 
   get "statuses/create"
 
+  match "crazymonkey"  => "devise/sessions#new"
+
   devise_for :admins
 
 
