@@ -1,5 +1,5 @@
 FactoryGirl.define do
   factory :service do
-    name "Server 1"
+    sequence(:name) { |n| "Server #{n}" }
   end
 end
