@@ -15,6 +15,10 @@
 
 Service.delete_all
 Status.delete_all
+Admin.delete_all
+
+Admin.create!(email: "admin@stasheyboard.com", password: "password",
+              password_confirmation: "password")
 
 Service.create!({name: "Ulysses"})
 Service.create!({name: "Goliath"})
@@ -23,7 +27,7 @@ Service.create!({name: "Zeus"})
 # statuses!
 
 statuses = ['Down', 'Up', 'Troubled']
-service_ids = [*1..3]
+service_ids = [*4..6]
 dates = [1.day.ago, 2.days.ago, 3.days.ago, 4.days.ago, 5.days.ago, 6.days.ago]
 
 100.times { Status.create(name: statuses.shuffle.first,

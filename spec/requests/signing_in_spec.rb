@@ -2,7 +2,7 @@ require 'spec_helper'
 
 describe "Admin Sign In " do
   describe "successful sign up" do
-    visit '/'
+    visit '/crazymonkey'
     click_link "Sign in"
     fill_in "Email", :with => "user@cc.com"
     fill_in "Password", :with => "password"
