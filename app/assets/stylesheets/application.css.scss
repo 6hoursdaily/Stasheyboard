@@ -184,6 +184,7 @@ div.legend {
 			padding: 0 1em 0 1em;
 			img {
 				vertical-align: middle;
+				padding-right: 3px;
 			}
 		}
 	}
@@ -194,7 +195,22 @@ div.legend {
 /* FOOTER */
 
 footer#page_footer {
-	padding: 30px 10px 20px 0;
+	padding: 30px 0 20px 0;
+	div.left {
+		float: left;
+		display: inline-block;
+	}
+	div.right {
+		float: right;
+		display: inline-block;
+		img {
+			padding: 0 2px 0 2px;
+		}
+		img#rails_logo {
+			padding-top: 15px;
+			vertical-align: middle;
+		}
+	}
 }
 
 
