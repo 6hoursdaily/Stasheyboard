@@ -10,10 +10,6 @@ module ApplicationHelper
     end
   end
 
-  def last_status(id)
-    
-  end
-
   def current_status(id)
     s = Service.find_by_id(id)
     image_for_status(s.statuses.last.name)

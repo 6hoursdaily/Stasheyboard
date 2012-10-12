@@ -10,7 +10,6 @@
       %tr
         %td= link_to service.name, service
         %td= service_status_at(service.id, "#{Date.today}")
-
         %td= service_status_at(service.id, "#{Date.today - 1}")
         %td= service_status_at(service.id, "#{Date.today - 2}")
         %td= service_status_at(service.id, "#{Date.today - 3}")

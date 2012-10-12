@@ -2,8 +2,8 @@ module StatusesHelper
 
   def status_time_presenter(status)
     from_time = Time.now
-    time = distance_of_time_in_words(from_time + status.created_at, from_time)
-    print "#{time} ago"
+    time = distance_of_time_in_words(status.created_at, from_time)
+    "#{time} ago"
   end
 
   
