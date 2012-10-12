@@ -29,14 +29,16 @@ gem 'haml-rails'
 gem 'squeel'
 
 group :test, :development do
-	gem 'rspec-rails', '~> 2.5'
+  gem 'rspec-rails'
+  gem 'shoulda-matchers'
+  gem 'factory_girl_rails'
+  gem 'guard-rspec'
   gem 'capybara'
-end
-
-group :test do
-	gem 'poltergeist'
-	gem 'database_cleaner'
-	gem 'factory_girl_rails'
+  gem 'capybara-firebug'
+  gem 'launchy'
+  gem 'ffaker'
+  gem 'database_cleaner'
   gem 'spork'
+  gem 'poltergeist'
 end
 
