@@ -172,7 +172,22 @@ p {
 }
 
 
+/* LEGEND DIV */
 
+div.legend {
+	ul {
+		li {
+			display: inline-block;
+			list-style: none;		
+			font-size: 85% !important;
+			vertical-align: middle;
+			padding: 0 1em 0 1em;
+			img {
+				vertical-align: middle;
+			}
+		}
+	}
+}
 
 
 

@@ -4,7 +4,7 @@
       %th Service
       %th{:class => "today"} Current
       - (1..6).each do |x|
-        %th= "#{(Date.today - x).strftime("%a. %d")}"
+        %th= "#{(Date.today - x).strftime("%b. %d")}"
   %tbody
     - @services.each do |service|
       %tr
@@ -16,3 +16,9 @@
         %td= service_status_at(service.id, "#{Date.today - 4}")
         %td= service_status_at(service.id, "#{Date.today - 5}")
         %td= service_status_at(service.id, "#{Date.today - 6}")
+%div.legend
+  %h6 Status Legend
+  %ul
+    %li!= "#{image_tag("tick-circle.png")} Service is up"
+    %li!= "#{image_tag("cross-circle.png")} Service is currently down"
+    %li!= "#{image_tag("traffic-cone.png")} Service is experiencing intermittent problems"
