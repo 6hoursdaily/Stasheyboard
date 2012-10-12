@@ -1,18 +1,14 @@
 require 'spec_helper'
 
 describe Admin do
-  it 'accesses the dashboard' do
-    admin = create(:admin)
-    visit '/crazymonkey'
-    fill_in 'Email', with: admin.email
-    fill_in 'Password', with: admin.password
-    click_button 'Sign in'
+  describe 'valid admin' do
+    let(:admin) { create(:admin) }
 
-    current_path.should == admin_dashboard_path
-    within 'h1' do
-      page.should have_content 'Administration'
-    end
-    page.should have_content 'Current Servers'
-    page.should have_content 'Add Server'
+    subject { admin }
+
+    it { should be_valid }
+    it { should respond_to(:email) }
+    it { should respond_to(:password) }
+    it { should respond_to(:remember_me) }
   end
 end
