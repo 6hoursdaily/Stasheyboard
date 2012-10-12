@@ -58,6 +58,16 @@ p {
 			color: #525252;
 		}
 	}
+	#root_link.small {
+		font: 32px "Open Sans", arial, helvetica, verdana, sans-serif;
+		vertical-align: middle;
+		margin-top: 10px;
+		color: black;
+		font-weight: bold;
+		a:hover {
+			color: #525252;
+		}
+	}
 	#email {
 		// padding-top: 6px;
 		vertical-align: middle;
@@ -191,6 +201,10 @@ div.legend {
 				padding-right: 3px;
 			}
 		}
+	}
+	ul.show-for-small li {
+		display: block;
+		padding: 5px 0;
 	}
 }
 

@@ -18,7 +18,15 @@
         %td= service_status_at(service.id, "#{Date.today - 6}")
 %div.legend
   %h6 Status Legend
-  %ul
+  %ul.hide-for-small
     %li!= "#{image_tag("tick-circle.png")} Service is up"
     %li!= "#{image_tag("cross-circle.png")} Service is currently down"
     %li!= "#{image_tag("traffic-cone.png")} Service is experiencing intermittent problems"
+  %ul.show-for-small
+    %li!= "#{image_tag("tick-circle.png")} Service is up"
+    %li!= "#{image_tag("cross-circle.png")} Service is currently down"
+    %li!= "#{image_tag("traffic-cone.png")} Service is experiencing intermittent problems"  
+.row
+  .four.columns.centered
+    %div#links.show-for-small
+      = link_to "Report an issue", href="mailto:help@stashboard.org", :class => "small round secondary button"
