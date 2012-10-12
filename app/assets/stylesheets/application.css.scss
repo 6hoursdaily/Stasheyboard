@@ -89,6 +89,7 @@ p {
 	}
 }
 
+// no reason for this to be here - refactor header!
 #email {
 	float: right;
 	margin-top: 17px;
@@ -189,6 +190,7 @@ p {
 /* LEGEND DIV */
 
 div.legend {
+	border-bottom: 1px solid $dark-grey;
 	ul {
 		li {
 			display: inline-block;
@@ -208,6 +210,11 @@ div.legend {
 	}
 }
 
+/* SMALL CONTACT SECTION */
+
+#links {
+	padding-top: 15px;
+}
 
 
 /* FOOTER */
