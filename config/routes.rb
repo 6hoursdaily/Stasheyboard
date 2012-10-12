@@ -6,9 +6,13 @@ Stasheyboard::Application.routes.draw do
   get "statuses/create"
 
 
-  devise_for :admins do
-    match "crazymonkey"  => "devise/sessions#new"
+  namespace :admin do
+    devise_for :admins do
+      get '', to: 'dashboard#index', as: '/'
+      match "crazymonkey"  => "devise/sessions#new"
+    end
   end
+  
   root :to => "services#index"
 
   resources :services do

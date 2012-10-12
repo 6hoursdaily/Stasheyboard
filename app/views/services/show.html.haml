@@ -14,7 +14,7 @@
       %tbody
         - @statuses.each do |status|
           %tr
-          %td= status.created_at.strftime("%D")
+          %td= status_time_presenter(status)
           %td= image_for_status(status.name)
-          %td= message_helper(status)
+          %td= status_message_helper(status)
       

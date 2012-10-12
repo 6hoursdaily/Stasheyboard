@@ -14,5 +14,6 @@ describe "Admin Sign In " do
     end
     page.should have_content 'Current Servers'
     page.should have_content 'Add Server'
+    page.should have_content 'Add New Admin User'
   end
 end

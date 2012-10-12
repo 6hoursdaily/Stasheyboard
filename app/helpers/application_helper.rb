@@ -10,6 +10,10 @@ module ApplicationHelper
     end
   end
 
+  def last_status(id)
+    
+  end
+
   def current_status(id)
     s = Service.find_by_id(id)
     image_for_status(s.statuses.last.name)
@@ -19,25 +23,13 @@ module ApplicationHelper
     s = Service.find_by_id(service_id)
     weekly_stats = s.statuses.where("DATE(created_at) <= DATE(?) and DATE(created_at) > DATE(?)",
       Date.today, (Date.today - 7))
-    status = weekly_stats.where("DATE(created_at) = DATE(?)", date).last.name
+    status = weekly_stats.where("DATE(created_at) = DATE(?)", date).last
     if status.blank?
-      status = weekly_stats.where("DATE(created_at < DATE(?)", date).last.name
+      status = weekly_stats.last
     end
-    image_for_status(status)
+    image_for_status(status.name)
   end 
 
-  def message_helper(status)
-    # unless s.statuses.last.message.nil?
-    #   s.statuses.last.message
-    # else
-    #   "Unknown"
-    # end
-    unless status.message.blank?
-      status.message
-    else
-      "Unknown"
-    end
-  end
 
 
 end
