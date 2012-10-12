@@ -5,11 +5,10 @@ Stasheyboard::Application.routes.draw do
 
   get "statuses/create"
 
-  match "crazymonkey"  => "devise/sessions#new"
 
-  devise_for :admins
-
-
+  devise_for :admins do
+    match "crazymonkey"  => "devise/sessions#new"
+  end
   root :to => "services#index"
 
   resources :services do
