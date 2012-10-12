@@ -1,8 +1,7 @@
 module StatusesHelper
 
   def status_time_presenter(status)
-    from_time = Time.now
-    time = distance_of_time_in_words(status.created_at, from_time)
+    time = distance_of_time_in_words(status.created_at, Time.now)
     "#{time} ago"
   end
 
@@ -18,6 +17,6 @@ module StatusesHelper
     # else
     #   "Unknown"
     # end
-    status.message ? status.message : "Unknown"
+    status.message ? status.message : ""
   end
 end
