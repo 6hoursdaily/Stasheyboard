@@ -30,10 +30,10 @@ gem 'squeel'
 
 group :test, :development do
 	gem 'rspec-rails', '~> 2.5'
+  gem 'capybara'
 end
 
 group :test do
-	gem 'capybara'
 	gem 'poltergeist'
 	gem 'database_cleaner'
 	gem 'factory_girl_rails'
