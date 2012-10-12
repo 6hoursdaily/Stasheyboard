@@ -17,7 +17,7 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600);
 
 @mixin default_font {
-	font: 1.3em "Open Sans";
+	font: 1.2em "Open Sans";
 }
 
 /* VARIABLES */
@@ -42,21 +42,25 @@ p {
 #page_header {
 	height: 70px;
 	margin-bottom: 10px;
-}
-
-#page_header #logo_image { height: 40px;
-	width: 54px;
-	float: left;
-	margin: 15px 0;}
-
-#page_header #root_link {
-	text-decoration: none;
-	padding-top: 16px;
-	font: 32px "Open Sans", arial, helvetica, verdana, sans-serif;
-	font-weight: bold;
-	color: black;
-	a:hover {
-		color: #525252;
+  #logo_image {
+  	height: 40px;
+		width: 54px;
+		float: left;
+		margin: 15px 0;
+	}
+	#root_link {
+		text-decoration: none;
+		vertical-align: middle;
+		font: 32px "Open Sans", arial, helvetica, verdana, sans-serif;
+		font-weight: bold;
+		color: black;
+		a:hover {
+			color: #525252;
+		}
+	}
+	#email {
+		// padding-top: 6px;
+		vertical-align: middle;
 	}
 }
 				
