@@ -27,21 +27,21 @@ table td, table th { padding: 9px 10px; text-align: left; }
 
 /* Mobile */
 @media only screen and (max-width: 767px) {
+  
+  table.responsive { margin-bottom: 0; border-bottom: none; }
 	
-	table.responsive { margin-bottom: 0; }
-	
-	.pinned { position: absolute; left: 0; top: 0; bottom: 11px; background: #fff; width: 25%; overflow: hidden;  border-right: 1px solid #E4E4E4; border-left: 1px solid #E4E4E4; }
+	.pinned { position: absolute; left: 0; top: 0; bottom: 11px; background: #fff; width: 25%; overflow: hidden;   }
 	.pinned table { border-right: none; border-left: none; width: 100%; }
 	.pinned table th, .pinned table td { white-space: nowrap; }
-	.pinned td:last-child { border-bottom: 0; }
+	.pinned table tr:last-child td { border-bottom: none !important;}
 	
-	div.table-wrapper { position: relative; margin-bottom: 20px; overflow: hidden; border-right: 1px solid #ccc; }
+	div.table-wrapper { position: relative; margin-bottom: 20px; overflow: hidden; border-bottom: none;  }
 	div.table-wrapper div.scrollable table { margin-left: 35%; }
-	div.table-wrapper div.scrollable { overflow: scroll; overflow-y: hidden; }	
+	div.table-wrapper div.scrollable { overflow: scroll; overflow-y: hidden; border-bottom: none; }
 	
 	table.responsive td, table.responsive th { position: relative; white-space: nowrap; overflow: hidden; }
 	table.responsive th:first-child, table.responsive td:first-child, table.responsive td:first-child, table.responsive.pinned td { display: none; }
-	
+
 }
 
 /* -----------------------------------------

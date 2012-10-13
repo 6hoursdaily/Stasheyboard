@@ -162,7 +162,6 @@ p {
 		border-top: none;
 		border-spacing: 0;
 		background-color: transparent;
-		// display: table;
 		font-size: 1.5em;
 	}
 
@@ -180,6 +179,9 @@ p {
 		font-weight: bold;
 		border-bottom: 1px solid $dark-grey;
 		border-right: 1px solid $dark-grey;
+		// &:first-child {
+		// 	border-right: none;
+		// }
 	}
 
 	td {
