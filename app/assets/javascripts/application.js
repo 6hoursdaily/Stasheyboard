@@ -12,6 +12,7 @@
 //
 //= require modernizr.custom
 //= require jquery
+//= require responsive-tables
 //= require jquery_ujs
 //= require foundation
 //= require_tree .
