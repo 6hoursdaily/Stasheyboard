@@ -62,7 +62,7 @@ p {
 	#root_link.small {
 		font: 32px "Open Sans", arial, helvetica, verdana, sans-serif;
 		vertical-align: middle;
-		margin-top: 10px;
+		margin-top: 12px;
 		color: black;
 		font-weight: bold;
 		a:hover {
@@ -130,29 +130,6 @@ p {
 		}
 	}
 
-	table#account_portal {
-		position: relative;
-		width: 100%;
-		border-collapse: separate;
-		background-color: transparent;
-		border-collapse: separate;
-		border-spacing: 0;
-		border-left: 1px solid $dark-grey;
-		border-top: 1px solid $dark-grey;
-		thead tr th {
-			background-color: #EEE;	
-			text-align: center;
-			padding: 10px;
-			border-bottom: 1px solid $dark-grey;
-			border-right: 1px solid $dark-grey;
-			font-weight: bold;
-			font-size: 16px;
-		}
-		tr {
-			font-size: 16px;
-			vertical-align: baseline;
-		}
-	}
 
 	table#services {
 		text-align: center;
