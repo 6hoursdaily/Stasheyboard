@@ -2,3 +2,7 @@
 
 This here is a rendition of Stashboard using Rails, Zurb Foundation, HAML, and Devise.
 
+Remember to change the config.time_zone option in application.rb to suit your location.Run rake time:zones:all to see the available options.  For the Eastern US you add:
+
+    config.time_zone = 'Eastern Time (US & Canada)'
+    config.active_record.default_timezone = :local
