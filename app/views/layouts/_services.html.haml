@@ -9,13 +9,13 @@
     - @services.each do |service|
       %tr
         %td= link_to service.name, service
-        %td= service_status_at(service.id, "#{Date.today}")
-        %td= service_status_at(service.id, "#{Date.today - 1}")
-        %td= service_status_at(service.id, "#{Date.today - 2}")
-        %td= service_status_at(service.id, "#{Date.today - 3}")
-        %td= service_status_at(service.id, "#{Date.today - 4}")
-        %td= service_status_at(service.id, "#{Date.today - 5}")
-        %td= service_status_at(service.id, "#{Date.today - 6}")
+        %td= service_status_at(service.id, "#{Time.zone.now}")
+        %td= service_status_at(service.id, "#{Time.zone.now - (1.day)}")
+        %td= service_status_at(service.id, "#{Time.zone.now - 2.days}")
+        %td= service_status_at(service.id, "#{Time.zone.now - 3.days}")
+        %td= service_status_at(service.id, "#{Time.zone.now - 4.days}")
+        %td= service_status_at(service.id, "#{Time.zone.now - 5.days}")
+        %td= service_status_at(service.id, "#{Time.zone.now - 6.days}")
 %div.legend
   %h6 Status Legend
   %ul.hide-for-small
