@@ -19,11 +19,6 @@ describe Status do
     end
 
 
-    it "is invalid without a unique name" do
-      create(:status, name: "unique_server")
-      FactoryGirl.build(:status, :name => "unique_server").should_not be_valid
-    end
-
     it "is invalid without a service id" do
       FactoryGirl.build(:status, :service_id => nil).should_not be_valid
     end
