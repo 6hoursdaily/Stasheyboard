@@ -3,7 +3,7 @@ require 'spec_helper'
 describe "Admin Sign In " do
   it 'accesses the dashboard' do
     admin = create(:admin)
-    visit '/crazymonkey'
+    visit '/admin'
     fill_in 'Email', with: admin.email
     fill_in 'Password', with: admin.password
     click_button 'Sign in'
