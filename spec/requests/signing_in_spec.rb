@@ -1,8 +1,12 @@
 require 'spec_helper'
 
 describe "Admin Sign In " do
+
+  let(:admin) { create(:admin) }
+
+  subject { :admin } 
+
   it 'accesses the dashboard' do
-    admin = create(:admin)
     visit '/admin'
     fill_in 'Email', with: admin.email
     fill_in 'Password', with: admin.password
