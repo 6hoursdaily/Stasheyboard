@@ -1,4 +1,7 @@
-%h1 Admin Dashboard
-%li= link_to 'Current Servers', '#'
-%li= link_to 'Add Server', '#'
-%li= link_to 'Add New Admin User', '#'
+=content_for :title, 'Stasheyboard - Admin Dashboard'
+.row
+  .eleven.columns.centered#content
+    %h1 Admin Dashboard
+    = render 'layouts/admin_services'
+    %li= link_to 'Add Server', '#'
+    %li= link_to 'Add New Admin User', '#'

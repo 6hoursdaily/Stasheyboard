@@ -2,6 +2,7 @@ class Admin::DashboardController < ApplicationController
   before_filter :authorize_admin!
 
   def index
+    @services = Service.all
   end
 
   private
