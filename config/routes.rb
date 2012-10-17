@@ -1,5 +1,4 @@
 Stasheyboard::Application.routes.draw do
-  get "dashboard/index"
 
   get "statuses/index"
 
@@ -10,7 +9,7 @@ Stasheyboard::Application.routes.draw do
   devise_for :admins 
 
   namespace :admin do
-      get '', to: 'dashboard#index', as: '/'
+    get '', to: 'dashboard#index', as: '/dashboard'
   end
   
   root :to => "services#index"
