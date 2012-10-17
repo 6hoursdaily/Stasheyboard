@@ -41,5 +41,9 @@ describe "Admin Dashboard" do
       page.should have_content 'Add Server'
       page.should have_content 'Add New Admin User'
     end
+
+    it 'can log out' do
+      page.should have_content 'Sign out'
+    end
   end
 end
