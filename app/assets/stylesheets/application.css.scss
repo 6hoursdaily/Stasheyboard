@@ -231,8 +231,21 @@ div#sign_in {
 
 }
 
+
+/* CONTACT LINKS */
+
 #rss_feed {
 	float: right;
 
 }
 
+#rss_small {
+	margin: 0 auto;
+	padding-top: 10px;
+	p a img {
+		padding-left: 8px;
+		padding-top: 10px;
+		// margin-top: 8px;
+		vertical-align: baseline;
+	}
+}

@@ -1,8 +1,8 @@
 = content_for :title, "Stasheyboard Service Panel"
 .row
   .ten.columns.centered
-    #rss_feed= link_to image_tag("feed-icon-14x14.png"), "http://www.feedburner.com"
-    %h3= "Service: #{@service.name}"
+    #rss_feed.hide-for-small= link_to image_tag("feed-icon-14x14.png"), "http://www.feedburner.com"
+    %h4= "Service: #{@service.name}"
 .row
   .ten.columns.centered#content
     %table#account_portal
