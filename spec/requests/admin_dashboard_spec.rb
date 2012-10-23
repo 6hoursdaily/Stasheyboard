@@ -44,6 +44,8 @@ describe "Admin Dashboard" do
 
     it 'can log out' do
       page.should have_content 'Sign out'
+      click_link 'Sign out'
+      current_path.should == root_path
     end
   end
 end
