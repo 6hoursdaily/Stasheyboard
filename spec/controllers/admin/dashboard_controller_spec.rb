@@ -22,7 +22,7 @@ describe Admin::DashboardController do
 
   context 'non Admin' do
     describe "GET 'index'" do
-      it "returns http success" do
+      it "does not return http success" do
         get 'index'
         response.should_not be_success
       end

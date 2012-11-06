@@ -98,6 +98,14 @@ p {
 }
 
 
+/* MESSAGES */
+
+.alert, .notice {
+	text-align: center;
+	font-size: 16px;
+	font-style: bold;
+}
+
 /* CONTENT SECTION */
 
 #content {
@@ -167,6 +175,17 @@ p {
 	}
 }
 
+
+/* ADMIN DASHBOARD */
+
+#admin_links {
+	list-style: none;
+}
+
+#session_links {
+	float: right;
+	padding-top: 15px;
+}
 
 /* LEGEND DIV */
 
