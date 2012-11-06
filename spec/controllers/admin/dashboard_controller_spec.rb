@@ -12,7 +12,7 @@ describe Admin::DashboardController do
     end
 
     describe 'GET dashboard#index' do
-      it 'returrns http success' do
+      it 'returns http success' do
         get 'index'
         response.should be_success
       end

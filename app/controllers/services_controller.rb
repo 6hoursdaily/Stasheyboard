@@ -8,4 +8,8 @@ class ServicesController < ApplicationController
     @service = Service.find(params[:id])
     @statuses = @service.statuses.order('created_at ASC').last(4).reverse
   end
+
+  def new
+    @service = Service.new
+  end
 end

@@ -29,7 +29,7 @@ describe "Admin Dashboard" do
     it 'is redirected to the dashboard on sign in' do
 
       current_path.should == admin_dashboard_path
-      within 'h1' do
+      within 'h3' do
         page.should have_content 'Admin Dashboard'
       end
 
@@ -46,6 +46,16 @@ describe "Admin Dashboard" do
       page.should have_content 'Sign out'
       click_link 'Sign out'
       current_path.should == services_path
+    end
+
+    it 'can add a new server', focus: true do
+      click_link 'Add Server'
+      fill_in "Name", with: "Pluto"
+      fill_in "Status", with: "Up"
+      click_button "Add Server"
+      current_path.should == admin_dashboard_path
+      page.should have_content 'Server successfully added.'
+      page.should have_content "Pluto"
     end
   end
 end
