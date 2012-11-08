@@ -15,6 +15,7 @@ Stasheyboard::Application.routes.draw do
 
   namespace :admin do
     get '', to: 'dashboard#index', as: '/dashboard'
+    resources :admins
   end
  
 

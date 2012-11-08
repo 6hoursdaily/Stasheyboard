@@ -48,13 +48,23 @@ describe "Admin Dashboard" do
       current_path.should == services_path
     end
 
-    it 'can add a new server', focus: true do
+    it 'can add a new server' do
       click_link 'Add Server'
       fill_in "Name", with: "Pluto"
       click_button "Add Service"
       current_path.should == admin_dashboard_path
       page.should have_content "Server has been created. Its current status is 'Up'"
       page.should have_content "Pluto"
+    end
+
+    it "can add new Admin user", focus: true do
+      click_link 'Add New Admin User'
+      fill_in "Email", with: "newadmin@stasheyboard.com"
+      fill_in "Password", with: "topsecret"
+      fill_in "Password confirmation", with: "topsecret"
+      click_button "Add New Admin"
+      current_path.should == admin_dashboard_path
+      page.should have_content "New Admin created."
     end
   end
 end
