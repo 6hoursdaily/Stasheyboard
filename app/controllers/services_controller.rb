@@ -12,4 +12,13 @@ class ServicesController < ApplicationController
   def new
     @service = Service.new
   end
+
+  def create
+    @service = Service.new(params[:service])
+    if @service.save
+      redirect_to admin_dashboard_path, notice: "Server has been created.  Its current status is '#{@service.statuses.last.name}'."
+    else
+      render :new, alert: 'Server was not created.'
+    end
+  end
 end

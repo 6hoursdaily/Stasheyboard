@@ -51,10 +51,9 @@ describe "Admin Dashboard" do
     it 'can add a new server', focus: true do
       click_link 'Add Server'
       fill_in "Name", with: "Pluto"
-      fill_in "Status", with: "Up"
-      click_button "Add Server"
+      click_button "Add Service"
       current_path.should == admin_dashboard_path
-      page.should have_content 'Server successfully added.'
+      page.should have_content "Server has been created. Its current status is 'Up'"
       page.should have_content "Pluto"
     end
   end
