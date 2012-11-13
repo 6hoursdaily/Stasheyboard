@@ -57,6 +57,9 @@ describe "Admin Dashboard" do
     end
 
     it "can delete a server" do
+      click_link 'Add Server'
+      fill_in "Name", with: "Pluto"
+      click_button "Add Service"
       click_link 'Pluto'
       click_button 'Delete Service'
       current_path.should == services_path
