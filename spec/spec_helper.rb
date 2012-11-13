@@ -1,4 +1,4 @@
-require 'simple_cov'
+require 'simplecov'
 SimpleCov.start
 
 require 'rubygems'

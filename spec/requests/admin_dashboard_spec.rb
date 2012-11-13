@@ -13,9 +13,7 @@ describe "Admin Dashboard" do
   end
 
   context 'admin' do
-    # before(:each) do
-    #   admin = create(:admin)
-    # end
+
     let(:admin) { create(:admin) }
     subject { admin }
 
@@ -57,7 +55,7 @@ describe "Admin Dashboard" do
       page.should have_content "Pluto"
     end
 
-    it "can add new Admin user", focus: true do
+    it "can add new Admin user" do
       click_link 'Add New Admin User'
       fill_in "Email", with: "newadmin@stasheyboard.com"
       fill_in "Password", with: "topsecret"
