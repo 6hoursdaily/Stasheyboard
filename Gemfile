@@ -28,6 +28,10 @@ gem 'thin'
 gem 'haml-rails'
 gem 'squeel'
 
+group :test do
+  gem 'simplecov', :require => false
+end
+
 group :test, :development do
   gem 'rspec-rails'
   gem 'shoulda-matchers'
@@ -39,6 +43,6 @@ group :test, :development do
   gem 'ffaker'
   gem 'database_cleaner'
   gem 'spork'
-  gem 'poltergeist'
+  gem 'fuubar'
 end
 
