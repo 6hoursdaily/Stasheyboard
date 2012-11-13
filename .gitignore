@@ -16,3 +16,7 @@
 *.sublime*
 
 /config/database.yml
+
+# Ignore Simple Cov results
+
+coverage

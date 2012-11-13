@@ -64,5 +64,9 @@ describe "Admin Dashboard" do
       current_path.should == admin_dashboard_path
       page.should have_content "New Admin created."
     end
+
+    it "can edit an Admin user" do
+       
+    end
   end
 end
