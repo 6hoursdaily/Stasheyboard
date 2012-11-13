@@ -16,3 +16,4 @@
         %td= service_status_at(service.id, "#{Time.zone.now - 4.days}")
         %td= service_status_at(service.id, "#{Time.zone.now - 5.days}")
         %td= service_status_at(service.id, "#{Time.zone.now - 6.days}")
+        %td= link_to 'Delete Service?', service, confirm: 'Are you sure?', method: 'delete'

@@ -2,9 +2,9 @@ require 'spec_helper'
 
 describe "Admin Dashboard" do
 
-  context 'non admin' do
+  context 'as non admin' do
 
-    it 'non admin cannot access dashboard' do
+    it 'cannot access dashboard' do
       visit admin_dashboard_path
       current_path.should_not == services_path
       current_path.should_not == admin_dashboard_path
@@ -12,7 +12,7 @@ describe "Admin Dashboard" do
     end
   end
 
-  context 'admin' do
+  context 'as admin' do
 
     let(:admin) { create(:admin) }
     subject { admin }
@@ -46,6 +46,7 @@ describe "Admin Dashboard" do
       current_path.should == services_path
     end
 
+
     it 'can add a new server' do
       click_link 'Add Server'
       fill_in "Name", with: "Pluto"
@@ -53,6 +54,13 @@ describe "Admin Dashboard" do
       current_path.should == admin_dashboard_path
       page.should have_content "Server has been created. Its current status is 'Up'"
       page.should have_content "Pluto"
+    end
+
+    it "can delete a server" do
+      click_link 'Pluto'
+      click_button 'Delete Service'
+      current_path.should == services_path
+      page.should have_content "Server has been deleted." 
     end
 
     it "can add new Admin user" do
@@ -66,7 +74,7 @@ describe "Admin Dashboard" do
     end
 
     it "can edit an Admin user" do
-       
+      pending
     end
   end
 end
