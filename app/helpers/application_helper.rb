@@ -22,6 +22,9 @@ module ApplicationHelper
       Time.zone.now, (Time.zone.now - 7.days))
     status = weekly_stats.where("DATE(created_at) = DATE(?)", date).last
     if status.blank?
+      status = weekly_stats.where("DATE(created_at) < DATE(?)", date).last
+    end
+    if status.blank?
       status = s.statuses.last
     end
     image_for_status(status.name)
