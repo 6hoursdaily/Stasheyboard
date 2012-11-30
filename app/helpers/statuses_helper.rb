@@ -7,16 +7,6 @@ module StatusesHelper
 
   
   def status_message_helper(status)
-    # unless s.statuses.last.message.nil?
-    #   s.statuses.last.message
-    # else
-    #   "Unknown"
-    # end
-    # unless status.message.blank?
-    #   status.message
-    # else
-    #   "Unknown"
-    # end
     status.message ? status.message : ""
   end
 end
