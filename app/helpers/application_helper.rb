@@ -10,10 +10,14 @@ module ApplicationHelper
     end
   end
 
-  def current_status(id)
-    s = Service.find_by_id(id)
-    image_for_status(s.statuses.last.name)
+  def date_helper(n)
+    "#{(Date.today - n).strftime("%b. %d")}"
   end
+
+  # def current_status(id)
+  #   s = Service.find_by_id(id)
+  #   image_for_status(s.statuses.last.name)
+  # end
 
 
   def service_status_at(service_id, date)
@@ -29,7 +33,5 @@ module ApplicationHelper
     end
     image_for_status(status.name)
   end 
-
-
 
 end

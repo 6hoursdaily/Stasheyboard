@@ -50,20 +50,19 @@ describe "Admin Dashboard" do
     it 'can add a new server' do
       click_link 'Add Server'
       fill_in "Name", with: "Pluto"
-      click_button "Add Service"
+      expect {
+        click_button "Add Service"
+        }.to change { Service.count }.by(1)
       current_path.should == admin_dashboard_path
       page.should have_content "Server has been created. Its current status is 'Up'"
       page.should have_content "Pluto"
     end
 
-    it "can delete a server" do
-      click_link 'Add Server'
-      fill_in "Name", with: "Pluto"
-      click_button "Add Service"
-      click_link 'Pluto'
-      click_button 'Delete Service'
-      current_path.should == services_path
-      page.should have_content "Server has been deleted." 
+    it "can delete a server", focus: true do
+      current_path.should == admin_dashboard_path
+      expect {
+        click_button 'Delete Service?'
+        }.to change { Service.count }.by(-1)
     end
 
     it "can add new Admin user" do
