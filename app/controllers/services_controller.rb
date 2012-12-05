@@ -9,6 +9,14 @@ class ServicesController < ApplicationController
     @statuses = @service.statuses.order('created_at ASC').last(4).reverse
   end
 
+  def feed
+    @title = "Service Status update feed"
+    @service = Service.find(params[:id], :include => :statuses)
+    @statuses = @service.statuses.order('created_at DSC').last(4)
+    respond_to do |format|
+      format.atom { render :layout => false }
+  end
+
   def new
     @service = Service.new
   end
