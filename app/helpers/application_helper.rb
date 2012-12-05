@@ -14,11 +14,6 @@ module ApplicationHelper
     "#{(Date.today - n).strftime("%b. %d")}"
   end
 
-  # def current_status(id)
-  #   s = Service.find_by_id(id)
-  #   image_for_status(s.statuses.last.name)
-  # end
-
 
   def service_status_at(service_id, date)
     s = Service.find_by_id(service_id)

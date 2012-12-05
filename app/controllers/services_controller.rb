@@ -15,6 +15,7 @@ class ServicesController < ApplicationController
     @statuses = @service.statuses.order('created_at DSC').last(4)
     respond_to do |format|
       format.atom { render :layout => false }
+    end
   end
 
   def new
