@@ -16,7 +16,7 @@ module ApplicationHelper
 
 
   def service_status_at(service_id, date)
-    s = Service.find_by_id(service_id)
+    s = Service.find_by_id(service_id, :include => :statuses)
     weekly_stats = s.statuses.where("DATE(created_at) <= DATE(?) and DATE(created_at) > DATE(?)",
       Time.zone.now, (Time.zone.now - 7.days))
     status = weekly_stats.where("DATE(created_at) = DATE(?)", date).last
