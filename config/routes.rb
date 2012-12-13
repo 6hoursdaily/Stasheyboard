@@ -1,11 +1,9 @@
 Stasheyboard::Application.routes.draw do
 
-  get "statuses/index"
 
-  get "statuses/show"
-
-  get "statuses/create"
-
+  match '/feed' => 'services#feed',
+    :as => :feed,
+    :defaults => { :format => 'atom' }
 
   # got rid of registerable; gonna have to add a admin user controller I think
   devise_for :admins do

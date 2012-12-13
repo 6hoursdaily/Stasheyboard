@@ -1,4 +1,4 @@
-atom_feed :language => 'en-US'do |feed|
+atom_feed :language => 'en-US' do |feed|
   feed.title "#{@service.name} Status Updates"
   @statuses.each do |status|
     feed.entry status do |entry|

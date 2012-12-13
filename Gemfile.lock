@@ -31,6 +31,8 @@ GEM
     addressable (2.3.2)
     arel (3.0.2)
     bcrypt-ruby (3.0.1)
+    better_exception_app (0.0.4)
+      rails (>= 3.2)
     builder (3.0.0)
     capybara (1.1.2)
       mime-types (>= 1.16)
@@ -215,6 +217,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  better_exception_app
   capybara
   capybara-firebug
   coffee-rails (~> 3.2.1)

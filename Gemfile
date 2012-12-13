@@ -27,6 +27,7 @@ gem 'devise'
 gem 'thin'
 gem 'haml-rails'
 gem 'squeel'
+gem 'better_exception_app'
 
 group :test do
   gem 'simplecov', :require => false
