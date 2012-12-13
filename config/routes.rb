@@ -1,10 +1,6 @@
 Stasheyboard::Application.routes.draw do
 
 
-  match '/feed' => 'services#feed',
-    :as => :feed,
-    :defaults => { :format => 'atom' }
-
   # got rid of registerable; gonna have to add a admin user controller I think
   devise_for :admins do
     get '/devise/sessions/new', to: 'devise/sessions#new', as: '/polkadotmonkey'
@@ -20,6 +16,7 @@ Stasheyboard::Application.routes.draw do
   root :to => "application#admin_sign_in_redirect"
 
   resources :services do
+    get :feed, on: :member
     resources :statuses
   end
 

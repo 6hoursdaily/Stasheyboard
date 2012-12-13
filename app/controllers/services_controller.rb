@@ -10,11 +10,10 @@ class ServicesController < ApplicationController
   end
 
   def feed
-    @title = "Service Status update feed"
     @service = Service.find(params[:id])
-    @statuses = @service.statuses.order('created_at DSC').last(10)
+    @statuses = @service.statuses.last(10)
     respond_to do |format|
-      format.atom { render :layout => false }
+      format.atom
       format.rss { redirect_to feed_path(:format => :atom), :status => :moved_permanently }
     end
   end
