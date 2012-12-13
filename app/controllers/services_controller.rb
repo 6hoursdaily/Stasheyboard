@@ -1,5 +1,7 @@
 class ServicesController < ApplicationController
 
+  before_filter :authenticate_admin!, [:create, :destroy]
+
 	def index
 		@services = Service.all
 	end
@@ -25,9 +27,16 @@ class ServicesController < ApplicationController
   def create
     @service = Service.new(params[:service])
     if @service.save
-      redirect_to admin_dashboard_path, notice: "Server has been created.  Its current status is '#{@service.statuses.last.name}'."
+      redirect_to admin_dashboard_path, notice: "Server: #{@service.name} has been created.  Its current status is '#{@service.statuses.last.name}'."
     else
       render :new, alert: 'Server was not created.'
     end
+  end
+
+  def destroy
+    @service = Service.find(params[:id])
+    @service.destroy
+    flash[:notice] = "Service: #{@service.name} has been deleted."
+    redirect_to admin_dashboard_path
   end
 end

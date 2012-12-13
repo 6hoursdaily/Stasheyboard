@@ -17,6 +17,8 @@
           %td= status_time_presenter(status)
           %td= image_for_status(status.name)
           %td= status_message_helper(status)
+    - if current_admin
+      %p= button_to 'Delete Service?', @service, :class => "tiny alert radius button",confirm: 'Are you sure?', method: 'delete'
           
 = render 'layouts/contact_links'
       
