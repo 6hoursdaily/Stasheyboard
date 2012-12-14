@@ -1,6 +1,6 @@
 class ServicesController < ApplicationController
 
-  before_filter :authenticate_admin!, [:create, :destroy]
+  before_filter :authenticate_admin!, only: [:create, :destroy]
 
 	def index
 		@services = Service.all
@@ -37,6 +37,6 @@ class ServicesController < ApplicationController
     @service = Service.find(params[:id])
     @service.destroy
     flash[:notice] = "Service: #{@service.name} has been deleted."
-    redirect_to admin_dashboard_path
+    redirect_to root_path
   end
 end

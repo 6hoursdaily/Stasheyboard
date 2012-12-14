@@ -20,4 +20,6 @@ Stasheyboard::Application.routes.draw do
     resources :statuses
   end
 
+  match '/' => 'services#index', :as => 'root'
+
 end
