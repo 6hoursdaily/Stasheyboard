@@ -58,11 +58,16 @@ describe "Admin Dashboard" do
       page.should have_content "Pluto"
     end
 
-    it "can delete a server", focus: true do
+    it "can delete a server" do
       current_path.should == admin_dashboard_path
       expect {
         click_button 'Delete Service?'
         }.to change { Service.count }.by(-1)
+    end
+
+    it "can update a server status", focus: true do
+      current_path.should == admin_dashboard_path
+      click_link 'Ulysses'
     end
 
     it "can add new Admin user" do
