@@ -29,6 +29,10 @@ gem 'haml-rails'
 gem 'squeel'
 gem 'better_exception_app'
 
+# For performance profiling
+gem 'ruby-prof'
+gem 'newrelic_rpm'
+
 group :test do
   gem 'simplecov', :require => false
 end
