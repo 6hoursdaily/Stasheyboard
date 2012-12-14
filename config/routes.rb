@@ -3,7 +3,7 @@ Stasheyboard::Application.routes.draw do
 
   # got rid of registerable; gonna have to add a admin user controller I think
   devise_for :admins do
-    get '/devise/sessions/new', to: 'devise/sessions#new', as: '/polkadotmonkey'
+    get '/devise/sessions/new', to: 'devise/sessions#new'
   end
 
 
@@ -19,7 +19,5 @@ Stasheyboard::Application.routes.draw do
     get :feed, on: :member
     resources :statuses
   end
-
-  match '/' => 'services#index', :as => 'root'
 
 end
