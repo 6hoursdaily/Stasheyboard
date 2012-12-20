@@ -20,3 +20,6 @@
 # Ignore Simple Cov results
 
 coverage
+
+# All bin files
+bin
