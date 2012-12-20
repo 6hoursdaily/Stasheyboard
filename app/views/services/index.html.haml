@@ -2,3 +2,15 @@
 .row
   .eleven.columns.centered#content
     = render 'layouts/services'
+    %div.legend
+      %h6 Status Legend
+      %ul.hide-for-small
+        %li!= "#{image_tag("tick-circle.png")} Service is up"
+        %li!= "#{image_tag("cross-circle.png")} Service is currently down"
+        %li!= "#{image_tag("traffic-cone.png")} Service is experiencing intermittent problems"
+      %ul.show-for-small
+        %li!= "#{image_tag("tick-circle.png")} Service is up"
+        %li!= "#{image_tag("cross-circle.png")} Service is currently down"
+        %li!= "#{image_tag("traffic-cone.png")} Service is experiencing intermittent problems"  
+
+= render 'layouts/contact_links'

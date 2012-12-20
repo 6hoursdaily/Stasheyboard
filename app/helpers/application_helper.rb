@@ -24,7 +24,7 @@ module ApplicationHelper
       status = weekly_stats.where("DATE(created_at) < DATE(?)", date).last
     end
     if status.blank?
-      status = s.statuses.last
+      status = s.statuses.where("DATE(created_at) < DATE(?)", date).last
     end
     image_for_status(status.name)
   end 

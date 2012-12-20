@@ -1,7 +1,7 @@
 Stasheyboard::Application.routes.draw do
 
 
-  # got rid of registerable; gonna have to add a admin user controller I think
+  # change to scope_for?  
   devise_for :admins do
     get '/devise/sessions/new', to: 'devise/sessions#new'
   end

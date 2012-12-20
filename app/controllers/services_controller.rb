@@ -11,6 +11,7 @@ class ServicesController < ApplicationController
     @statuses = @service.statuses.order('created_at ASC').last(4).reverse
   end
 
+  # GRACK - not working
   def feed
     @service = Service.find(params[:id])
     @statuses = @service.statuses.last(10)
