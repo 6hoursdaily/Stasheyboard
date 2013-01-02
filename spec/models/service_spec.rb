@@ -21,5 +21,15 @@ describe Service do
       FactoryGirl.build(:service, :name => "uniqueuser@cc.com").should_not be_valid
     end
 
+    # convention in Ruby is 'on' for a day, 'at' for at an hour
+    describe "service#downtime_on" do
+      it "should return correct amount for single downtime" do
+        5.times { |n| service.statuses.create!(name: 'Up', created_at: n.hours.ago) }
+        last_down = service.statuses.create!(name: 'Down', created_at: 10.minutes.ago)
+        last_up = service.statuses.create!(name: 'Up')
+        downtime = last_up.created_at - last_down.created_at
+        service.downtime_on(Date.today).should == downtime
+      end
+    end
   end
 end

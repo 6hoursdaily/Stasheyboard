@@ -13,7 +13,7 @@ Stasheyboard::Application.routes.draw do
   end
  
 
-  root :to => "application#admin_sign_in_redirect"
+  root :to => "services#index"
 
   resources :services do
     get :feed, on: :member

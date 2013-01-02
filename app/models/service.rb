@@ -4,6 +4,24 @@ class Service < ActiveRecord::Base
   validates :name, :uniqueness => true, :presence => true
   after_create :set_status
 
+
+  # def downtime_on(date)
+  #   statuses = self.
+  # end
+
+  def status_at(date)
+    weekly_stats = self.statuses.where("DATE(created_at) <= DATE(?) and DATE(created_at) > DATE(?)",
+      Time.zone.now, (Time.zone.now - 7.days))
+    status = weekly_stats.where("DATE(created_at) = DATE(?)", date).last
+    if status.blank?
+      status = weekly_stats.where("DATE(created_at) < DATE(?)", date).last
+    end
+    if status.blank?
+      status = s.statuses.where("DATE(created_at) < DATE(?)", date).last
+    end
+    image_for_status(status.name)
+  end 
+
   private
 
   def set_status
