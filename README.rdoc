@@ -6,3 +6,10 @@ Remember to change the config.time_zone option in application.rb to suit your lo
 
     config.time_zone = 'Eastern Time (US & Canada)'
     config.active_record.default_timezone = :local
+
+
+=== To be done!
+
+- fix the styling glitch on the responsive table for small screens
+- get RSS feeds for status updates working
+- refactor methods to reduce my flog scores
