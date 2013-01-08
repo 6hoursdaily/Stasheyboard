@@ -66,7 +66,7 @@ p {
 	#email {
 		float: right;
 		margin-right: 15px;
-		padding-top: 8px;
+		padding-top: 10px;
 	}
 }
 				
@@ -198,11 +198,7 @@ footer#page_footer {
 		float: right;
 		display: inline-block;
 		img {
-			padding: 0 2px 0 2px;
-		}
-		img#rails_logo {
-			padding-top: 15px;
-			vertical-align: middle;
+			padding: 0 2px;
 		}
 	}
 }

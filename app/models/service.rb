@@ -5,16 +5,16 @@ class Service < ActiveRecord::Base
   after_create :set_status
 
 
-  def downtime_on(date)
-    todays_stats = self.statuses.where("DATE(created_at) = DATE(?)", Date.today)
-    todays_stats.each_with_index do |stat,i|
-      j = i + 1
-      downtime = 0
-      if stat.name == "Down"
-        downtime << today_stats[j].created_at.hour - stat.created_at.hour
-      end
-    downtime
-  end
+  # def downtime_on(date)
+  #   todays_stats = self.statuses.where("DATE(created_at) = DATE(?)", Date.today)
+  #   todays_stats.each_with_index do |stat,i|
+  #     j = i + 1
+  #     downtime = 0
+  #     if stat.name == "Down"
+  #       downtime << today_stats[j].created_at.hour - stat.created_at.hour
+  #     end
+  #   downtime
+  # end
 
   def status_at(date)
     weekly_stats = self.statuses.where("DATE(created_at) <= DATE(?) and DATE(created_at) > DATE(?)",
