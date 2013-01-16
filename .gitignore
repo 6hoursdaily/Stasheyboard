@@ -24,3 +24,8 @@ coverage
 # All bin files
 bin
 .stories
+
+# Ignore Sublime text
+*.sublime*
+
+#
