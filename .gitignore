@@ -18,7 +18,6 @@
 /config/database.yml
 
 # Ignore Simple Cov results
-
 coverage
 
 # All bin files
@@ -28,4 +27,3 @@ bin
 # Ignore Sublime text
 *.sublime*
 
-#

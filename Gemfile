@@ -15,8 +15,6 @@ gem 'pg'
 group :assets do
   gem 'sass-rails',   '~> 3.2.3'
   gem 'coffee-rails', '~> 3.2.1'
-  gem 'zurb-foundation'
-  gem 'compass-rails', '~> 1.0.3'
 
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
   # gem 'therubyracer', :platforms => :ruby
@@ -24,6 +22,9 @@ group :assets do
   gem 'uglifier', '>= 1.0.3'
 end
 
+gem 'compass-rails', '~> 1.0.3'
+gem 'compass'
+gem 'zurb-foundation'
 gem 'heroku'
 gem 'jquery-rails'
 gem 'devise'
@@ -32,9 +33,6 @@ gem 'haml-rails'
 gem 'squeel'
 gem 'better_exception_app'
 
-# For performance profiling
-gem 'ruby-prof'
-gem 'newrelic_rpm'
 
 group :test do
   gem 'simplecov', :require => false
