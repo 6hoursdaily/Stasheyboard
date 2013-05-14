@@ -38,6 +38,10 @@ group :test do
   gem 'simplecov', :require => false
 end
 
+group :development do
+  gem 'rails-erd'
+end
+
 group :test, :development do
   gem 'rspec-rails'
   gem 'shoulda-matchers'
