@@ -215,9 +215,12 @@ div#sign_in {
 
 }
 
-.pinned {
-	bottom: 20px !important!
-}
+
+// @media only screen and (max-width: 767px) {
+// 	.table-wrapper > .scrollable > .table-wrapper > .pinned {
+// 		bottom: 50px !important;
+// 	}
+// }
 
 /* CONTACT LINKS */
 
